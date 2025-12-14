@@ -274,6 +274,7 @@ ls  # Should see: chunks.json, faiss_index.bin, embeddings_openai.npy
 ```
 
 # Make sure you're in the right directory
+```bash
 cd ~/projects/izu_scraper/chunking
 ls  # Should see: chunks.json, faiss_index.bin, embeddings_openai.npy
 ```
