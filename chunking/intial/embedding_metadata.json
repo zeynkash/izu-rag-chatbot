@@ -1,0 +1,6 @@
+{
+  "model": "text-embedding-3-small",
+  "dimension": 1536,
+  "total_embeddings": 1747,
+  "date_created": "2025-12-09T20:48:26.020165"
+}

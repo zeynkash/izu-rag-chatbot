@@ -1,0 +1,15 @@
+{
+  "total_documents": 723,
+  "total_chunks": 1747,
+  "avg_chunks_per_doc": 2.416320885200553,
+  "chunk_size": 800,
+  "chunk_overlap": 150,
+  "avg_tokens_per_chunk": 584.7252432741843,
+  "languages": {
+    "en": 545,
+    "tr": 1202
+  },
+  "sections": {
+    "general": 1747
+  }
+}

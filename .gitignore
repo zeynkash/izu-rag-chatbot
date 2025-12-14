@@ -1,0 +1,60 @@
+# Environment variables (IMPORTANT!)
+.env
+*.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+rag-venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Large data files
+*.npy
+*.bin
+faiss_index.bin
+embeddings*.npy
+
+# Scrapy
+.scrapy/
+httpcache/
+
+# Logs
+logs/
+*.log
+
+# Output data (optional - include if you want to share)
+output/
+*.csv
+*.jsonl
+
+# Large JSON files
+chunks.json
+all_data*.json*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
+*~

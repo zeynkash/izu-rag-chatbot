@@ -1,0 +1,2259 @@
+
+<!DOCTYPE html>
+
+<html lang="tr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head><title>
+	İstanbul Sabahattin Zaim &#220;niversitesi
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- script type="text/javascript" src="/Common/Js/jquery.min.js"></script -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Common/Js/plugins-base.min.js"></script>
+    <script src="/Common/Js/plugins-extra.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/Common/css/stylesheet.css" media="all" /><link href="/Common/3rd-party/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" /><link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" /><link rel="stylesheet" type="text/css" href="/Common/css/yuzuncuyil.css" media="all" />
+        <script>
+            var languageCode = 'tr';
+        </script>
+        
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-801304161"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-121832564-1');
+    gtag('config', 'AW-801304161');
+</script>
+
+<!-- Facebook Pixel Code -->
+
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod 
+				? n.callMethod.apply(n, arguments) 
+				: n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '922254898151789');
+    fbq('track', 'PageView');
+</script>
+
+<noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=922254898151789&ev=PageView&noscript=1" /></noscript>
+
+<!-- End Facebook Pixel Code -->
+	
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPVBMM4L');</script>
+<!-- End Google Tag Manager -->
+
+
+<style type="text/css" media="all">a.call-to-action, button.call-to-action {
+    font-family: 'Roboto';
+    font-weight: 900;
+    background: #5B6270;
+    color: #FFF;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 80px;
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 18px;
+    height: 76px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button.call-to-action {
+    border: 0 none;
+}
+
+    a.call-to-action.cta-no-icon, button.call-to-action.cta-no-icon {
+        padding-left: 30px;
+    }
+
+a.call-to-action .fa, a.call-to-action .i8 {
+    font-size: 40px;
+    margin-right: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a.call-to-action .cta-label, button.call-to-action .cta-label {
+    display: table-cell;
+    vertical-align: middle;
+    height: 56px;
+    text-decoration: none;
+}
+
+a.call-to-action::after, button.call-to-action::after {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 56px;
+    width: 50px;
+    border-left: 2px solid rgba(255,255,255,0.5);
+    font-family: fontawesome;
+    content: "\f105";
+}
+
+a.call-to-action.popup-link::after {
+    content: "\f065";
+}
+
+a.call-to-action:hover, button.call-to-action:hover {
+    background: #8b2232;
+    color: #FFF;
+}
+
+    a.call-to-action:hover::after, button.call-to-action:hover::after {
+        background: #FFF;
+        border-radius: 3px;
+        color: #8b2232;
+    }
+
+a.large-call-to-action {
+    height: auto;
+}
+
+    a.large-call-to-action::after {
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%);
+    }
+
+.large-call-to-action .cta-label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+    .large-call-to-action .cta-label strong {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+@media screen and (max-width:768px) {
+    a.call-to-action, button.call-to-action {
+        height: 56px;
+        padding: 5px 60px;
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+        a.call-to-action::after, button.call-to-action::after {
+            line-height: 36px;
+            width: 35px;
+        }
+
+        a.call-to-action.popup-link::after, button.call-to-action.popup-link::after {
+            content: "";
+        }
+
+        a.call-to-action .cta-label, button.call-to-action .cta-label {
+            height: 46px;
+        }
+
+        a.call-to-action .fa, a.call-to-action .i8, button.call-to-action .fa, button.call-to-action .i8 {
+            margin: 0;
+            left: 15px;
+            font-size: 30px;
+        }
+
+    a.large-call-to-action {
+        height: auto;
+        padding: 10px 60px;
+    }
+
+        a.large-call-to-action .cta-label {
+            height: auto;
+        }
+
+            a.large-call-to-action .cta-label strong {
+                font-size: 22px;
+            }
+}</style><meta name="Generator" content="Sitefinity 10.1.6502.0 PE" /><link rel="canonical" href="https://www.izu.edu.tr/sayfa-bulunamadi" /><link href="/Sitefinity/WebsiteTemplates/IZU/App_Themes/IZUTheme/global/main.css?v=636517222016998984" type="text/css" rel="stylesheet" /></head>
+
+
+<body class="inside">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPVBMM4L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form method="post" action="./sitemap.xml?404%3bhttps%3a%2f%2fwww.izu.edu.tr%3a443%2fsitemap.xml" id="fakulteler">
+<input type="hidden" name="ctl22_TSSM" id="ctl22_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="G1wYR940cVcGJBdCy1FU+HSktqWizK+VRq3UX5OnKMLM4KSIwBZZdjyer/KZju5DmDZqcUhc0qdruc7QCmJSpsi+lrXe7mqAbNxSZngbTcpsPMAzWXNR/9epU7Uc9F+a12qrO3cHyYVGqYPUypewkjPwCdkxCOgjUeWx477D2yb9LC7M8H+ijBICMSdR68Wx" />
+
+
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yP9kmj-e3cp06FU2CeamxudrUGHSkP5sOPN1AAsaqoempINuiG5V_9or_9RcDjqcLtrRQO1YiP5XRiy6IihAlNtTRZYDg2TlxQKVE7sUSpG5I1jpEWGXWZgZSgJcR-3mcrTtXwY-2YYmAAZa4RWYUck1&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=4bMApOb58R6igmkUEZ0eXik99xbEn0uRbRuNKQx_gJrCZvcS9LPTyqszFRcPGMTUUUzm6jI3gux061vLkJt2_rMdVp117z6yTUqqmm8D-Ex0x3zPM5ZTo6Wa6Suc-bDmYTR-mtjxRxO_l8Jiac7YYTPC27uKOW19xyRPxShGyUdDjmOMOr_DzpgRT3zftWP00&amp;t=ffffffffbf499bb3" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EydukmxBmDstn7gSYzQESDvIwpOz5kW3Lpbad7SbYWQRS5LGr0NBGu6cXvVGCJLDgfRCDsoqYNUN_ZXOAybHFosVKUBn1qgsn4BFAhswhPiUHw09B-s5ApEfOC4Y4jhVgm5793aWRW2vo9BGyprNsT0Xz_gn4o5GE96NLM8K5odNmUX-C6XGbv9c0-E8juFU0&amp;t=ffffffffbf499bb3" type="text/javascript"></script>
+<script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Navigation/Mvc/Scripts/LanguageSelector/language-selector.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=lAcNKCSBPRb9dHiP3rTbP8_ZYInzwo7Bsf-s8TAzeA8BkMb6Vz9aRzlXAF338QC_eiJU5Ak0eAT_rLbXPdOtYU5nrA_aqC8wR3sa98wsZpCm5TU2H5LVCcM6I8gP03DTKbjrrCgMRiFFDxmvmfsOysfCTkWRAjRY45Uxb1mMoJSwKDVAG2hTa_OTrJ628eYv9UsU1uX6koXUhTukaput7A2&amp;t=ffffffffbf499bb3" type="text/javascript"></script>
+<script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/Mvc/Scripts/SearchBox/Search-box.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="421C1DE8" />
+        
+
+        <a id="top" title="Top of Page"></a>
+
+        
+
+
+        <header class="header">
+            <!-- Navigation -->
+            <div class="header-bar">
+
+                <div class="container header-main">
+                    <div class="logo">
+                        
+                            <a href='https://www.izu.edu.tr'
+                                id="izu-logo-full" title="İstanbul Sabahattin Zaim Üniversitesi, Türkiye">
+                                
+<div class="sfimageWrp">
+	        
+<img id="bolumLogo_T301C77C7001_ctl00_ctl00_imageItem" title="izulogo" src="/images/default-source/logolar/izulogo.png?sfvrsn=97bd0b8d_8" alt="izulogo" />
+
+
+</div>
+                            </a>
+                        
+                    </div>
+
+                    <div class="header-content">
+                        <p id="menu-btn" class="closed">
+                            <a href="#" class="box-shadow-menu"></a>
+                        </p>
+                        <div class="tools">
+                            <ul>
+                                
+										<li><a href="/izumedya">Medya</a></li>
+										<li><a href="https://kampus.izu.edu.tr/login" target="_blank">Kampüs</a></li>
+										<li><a href="https://izu.edu.tr/insan-kaynaklari">İnsan Kaynakları</a></li>	
+                                        <li><a href="/iletisim">İletişim</a></li>
+                                    
+                                <li class="language-selector">
+                                    
+
+
+
+<div>
+	        <a href="" onclick="openLink('en'); return false;" class="">English</a>
+</div>
+
+
+
+
+                                </li>
+                                
+                                        <li id="quick-links">
+                                            <span>Hızlı Erişim<span class="fa fa-angle-down"></span></span>
+                                            <ol>
+                                                <li><a href="/tüm-programlar">Tüm Programlar</a></li>
+                                                <li><a href="/kampüs-haritasi">Kampüs Haritası</a></li>
+                                                <li><a href="/cozum-merkezi">Çözüm Merkezi</a></li>
+                                                <li><a href="https://kampus.izu.edu.tr" target="_blank" rel="nofollow">Kampüs Bilgi Sistemi</a></li>
+                                                <li><a href="/ogrenci/kayit-kabul/akademik-takvim">Akademik Takvim</a></li>
+                                                <li><a href="/neden-izü" class="neden-izu-pdf">Neden İZÜ</a></li>
+                                                <li><a href="/sss">SSS</a></li>
+                                                <li><a href="/ihaleilanlari">İhale İlanları</a></li>
+                                                <li><a href="https://izu.edu.tr/arastirma/arastirma-merkezleri/izutem">İZÜTEM</a></li>
+                                            </ol>
+                                        </li>
+                                    
+                                <li class="social-link"><a href="https://www.facebook.com/zaimuniv" target="_blank" title="Like us on Facebook"><span class="fa fa-facebook social-icon round-icon small-round-icon"></span><span class="hidden">Facebook</span></a></li>
+                                <li class="social-link"><a href="https://twitter.com/zaimuniv" target="_blank" title="Follow us on Twitter"><span class="fa fa-twitter social-icon round-icon small-round-icon"></span><span class="hidden">Twitter</span></a></li>
+                                <li class="social-link"><a href="https://www.instagram.com/zaimuniv/" target="_blank" title="Instagram"><span class="fa fa-instagram social-icon round-icon small-round-icon"></span><span class="hidden">Instagram</span></a></li>
+                                <li class="social-link"><a href="https://www.youtube.com/user/izuniversite" target="_blank" title="Youtube"><span class="fa fa-youtube social-icon round-icon small-round-icon"></span><span class="hidden">Youtube</span></a></li>
+                                <li class="social-link"><a href="https://www.linkedin.com/school/zaimuniv/" target="_blank" title="Linkedin"><span class="fa fa-linkedin social-icon round-icon small-round-icon"></span><span class="hidden">Linkedin</span></a></li>
+                            </ul>
+
+
+                            <div id="global_search_form">
+                                
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $('button', '#global_search_form').html('');
+                                        $('button', '#global_search_form').addClass('fa fa-search');
+                                    });
+                                </script>
+                                
+
+<link href="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/assets/dist/css/sf-search-box.min.css" rel="stylesheet" type="text/css" />
+
+
+
+<div>
+    <input type="text" title="Arama girdisi" placeholder="Ara" id="b7f67fd1-7b7a-4455-8b4a-89dea8f5d324" value=""/>
+    <button type="button" id="a77a58ce-d820-4ad1-9d00-f99587b0e3cd">Ara</button>
+
+    <input type="hidden" data-sf-role="resultsUrl" value="/arama" />
+    <input type="hidden" data-sf-role="indexCatalogue" value="genel" />
+    <input type="hidden" data-sf-role="wordsMode" value="AllWords" />
+    <input type="hidden" data-sf-role="disableSuggestions" value='false' />
+    <input type="hidden" data-sf-role="minSuggestionLength" value="3" />
+    <input type="hidden" data-sf-role="suggestionFields" value="Title,Content" />
+    <input type="hidden" data-sf-role="language" value="tr" />
+    <input type="hidden" data-sf-role="suggestionsRoute" value="/restapi/search/suggestions" />
+    <input type="hidden" data-sf-role="searchTextBoxId" value='#b7f67fd1-7b7a-4455-8b4a-89dea8f5d324' />
+    <input type="hidden" data-sf-role="searchButtonId" value='#a77a58ce-d820-4ad1-9d00-f99587b0e3cd' />
+</div>
+
+
+
+
+
+                            </div>
+
+                            <div id="suggest_wrapper" class="outputDiv"></div>
+                        </div>
+                        <nav class="nav-main-wrapper">
+                            <div class="content-m mobile">
+                                
+
+
+<a style="display: none;" data-lang="tr" href="/tum-programlar" menu-bottom-button="c6f4a31a-57a0-4e75-97fc-849e056ae8c7" class="cta-button cta-light"><span class="cta-icon fa fa-search"></span><span class="cta-title">Tüm Programlar</span></a>
+<a style="display: none;" data-lang="tr" href="/akademik/ortak-dersler-koordinatorlugu" menu-bottom-button="5bac4094-34b6-4cbc-a412-ca23dccc0330" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">Ortak Dersler Koordinatörlüğü</span></a>
+<a style="display: none;" data-lang="tr" href="/akademik/kurullar-komisyonlar" menu-bottom-button="f33d75f1-e1a6-44fa-8d19-ddcd365f7791" class="cta-button cta-light"><span class="cta-icon fa fa-users"></span><span class="cta-title">Kurullar & Komisyonlar</span></a>
+<a style="display: none;" data-lang="tr" href="/akademik/yonerge-yonetmelikler" menu-bottom-button="7834a4ff-c577-474e-a2a8-ca0def21d5b2" class="cta-button cta-light"><span class="cta-icon fa fa-book"></span><span class="cta-title">Mevzuat</span></a>
+
+<a style="display: none; width: 48%;" data-lang="tr" href="/arastirma/teknoloji-transfer-ofisi-tto" menu-bottom-button="478e1adb-b435-478c-9ec7-2276b8c790b0" class="cta-button cta-light"><span class="cta-icon fa fa-exchange"></span><span class="cta-title">Teknoloji Transfer Ofisi (TTO)</span></a>
+<a style="display: none; width: 48%; left: 52%;" data-lang="tr" href="/arastirma/teknopark-koordinatorlugu" menu-bottom-button="478e1adb-b435-478c-9ec7-2276b8c790b0" class="cta-button cta-light"><span class="cta-icon fa fa-book"></span><span class="cta-title">Teknopark Koordinatörlüğü</span></a>
+<a style="display: none;" data-lang="tr" href="/arastirma/izu-yayinlar" menu-bottom-button="98f5afc3-bf76-4e10-9a73-aa83734e6cfb" class="cta-button cta-light"><span class="cta-icon fa fa-book"></span><span class="cta-title">İZU Yayınlar</span></a>
+<a style="display: none;" data-lang="tr" href="/arastirma/kutuphane/izu-kutuphane" menu-bottom-button="7655b260-a62f-4670-8889-2a2bf6f1cb77" class="cta-button cta-light"><span class="cta-icon fa fa-book"></span><span class="cta-title">Kütüphaneye Sorun</span></a>
+
+<a style="display: none;" data-lang="tr" href="/ogrenci/kayit-kabul/lisansustu-basvuru-ve-kayit" menu-bottom-button="4bc031b3-aaac-4b42-9c28-0db81094e95f" class="cta-button cta-light"><span class="cta-icon fa fa-graduation-cap"></span><span class="cta-title">Lisansüstü Kayıt</span></a>
+<a style="display: none;" data-lang="tr" href="/ogrenci/kayit-kabul/burslar-ve-indirimler" menu-bottom-button="3a20c644-5503-4415-b10d-517c7042e633" class="cta-button cta-light"><span class="cta-icon fa fa-users"></span><span class="cta-title">Burslar ve İndirimler</span></a>
+<a style="display: none;" data-lang="tr" href="/uluslararasi/erasmus" menu-bottom-button="e9ca4413-2171-4d63-af85-c9d4401bf8f9" class="cta-button cta-light"><span class="cta-icon fa fa-globe"></span><span class="cta-title">Erasmus+</span></a>
+<a style="display: none;" data-lang="tr" href="/uluslararasi/ogrenci-kabulu/nasıl-başvurulur" menu-bottom-button="890b788f-5eec-4863-bbd6-b62e636fdcef" class="cta-button cta-light"><span class="cta-icon fa fa-file-text-o"></span><span class="cta-title">Uluslararası Öğrenci</span></a>
+
+<a style="display: none;" data-lang="tr" href="https://apply.izu.edu.tr/" rel="nofollow" target="_blank" menu-bottom-button="80039d0b-5841-49da-929d-6a982c142c42" class="cta-button cta-light"><span class="cta-icon fa fa-globe"></span><span class="cta-title">Hemen Başvur</span></a>
+<a style="display: none;" data-lang="tr" href="/uluslararasi/uluslararas%C4%B1-i-li%C5%9Fkiler" menu-bottom-button="33e605ce-c5f7-4062-89b5-25df9c2c3773" class="cta-button cta-light"><span class="cta-icon fa fa-flag"></span><span class="cta-title">Uluslararası İlişkiler</span></a>
+<a style="display: none;" data-lang="tr" href="/uluslararasi/uluslararasi-organizasyonlar" menu-bottom-button="6bf6cf14-47ce-4856-bbbe-487d7dce5325" class="cta-button cta-light"><span class="cta-icon fa fa-plane"></span><span class="cta-title">Uluslararası Çalışmalar</span></a>
+<a style="display: none;" data-lang="tr" href="/uluslararasi/uluslararasi-organizasyonlar" menu-bottom-button="58d7d84c-d3f8-4320-92b5-2274659f1ecb" class="cta-button cta-light"><span class="cta-icon fa fa-plane"></span><span class="cta-title">Diğer Değişim Programları</span></a>
+
+  
+<a style="display: none;" data-lang="tr" href="/tum-programlar" menu-bottom-button="005eb952-badc-4318-8f0f-c9f280507aa7" class="cta-button cta-light"><span class="cta-icon fa fa-search"></span><span class="cta-title">Tüm Programlar</span></a>
+<a style="display: none;" data-lang="tr" href="/aday-ogrenci/kontenjan-puanlar/2018-yks-tercih-rehberi-ve-kilavuzu" menu-bottom-button="a2f076fb-7589-439f-8223-66170818f565" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">Tercih Rehberi</span></a>
+<a style="display: none;" data-lang="tr" href="/aday-ogrenci/burslar-indirimler/burslar-ve-indirimler" menu-bottom-button="81904c8d-da24-4ae7-a294-a59e89e6eda8" class="cta-button cta-light"><span class="cta-icon fa fa-users"></span><span class="cta-title">Başarıya Burs Sözü</span></a>
+<a style="display: none;" data-lang="tr" href="/ksmpus-haritasi" menu-bottom-button="b6b0f557-0801-4a30-b8bf-0e47cf296a9d" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">Kampüs Haritası</span></a>
+
+  
+<a style="display: none;" data-lang="tr" href="/izu-hakkinda/tarihce/kurucu-vakif" menu-bottom-button="c826d51b-4219-43a9-8cec-d401809995cd" class="cta-button cta-light"><span class="cta-icon fa fa-users"></span><span class="cta-title">Kurucu Vakıf</span></a>
+<a style="display: none;" data-lang="tr" href="/izü-hakkinda/kurumsal-bilgiler/sayılarla-izü" menu-bottom-button="79908d10-2ee2-4a16-8ede-99b065afd6bd" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">Sayılarla İZÜ</span></a>
+<a style="display: none;" data-lang="tr" href="/izu-hakkinda/kalite-ve-strateji/kalite-politikamiz" menu-bottom-button="4da8db15-b1f4-40da-be1c-9ac00069e1d0" class="cta-button cta-light"><span class="cta-icon fa fa-certificate"></span><span class="cta-title">Kalite İZÜ'de</span></a>
+<a style="display: none;" data-lang="tr" href="/iletisim" menu-bottom-button="2f6ce4be-c562-4d12-a5df-ef0914d198ba" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">İletişim</span></a>
+
+<a style="display: none;" data-lang="en" href="/en/institutional/all-programs" menu-bottom-button="c6f4a31a-57a0-4e75-97fc-849e056ae8c7" class="cta-button cta-light"><span class="cta-icon fa fa-search"></span><span class="cta-title">All Programs</span></a>
+<a style="display: none;" data-lang="en" href="/en/students/enrollment-and-admission/academic-calendar" menu-bottom-button="5bac4094-34b6-4cbc-a412-ca23dccc0330" class="cta-button cta-light"><span class="cta-icon fa fa-calendar"></span><span class="cta-title">Academic Calendar</span></a>
+<a style="display: none;" data-lang="en" href="/en/academics/faculties" menu-bottom-button="f33d75f1-e1a6-44fa-8d19-ddcd365f7791" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">Faculties</span></a>
+<a style="display: none;" data-lang="en" href="/en/institutional/graduate" menu-bottom-button="7834a4ff-c577-474e-a2a8-ca0def21d5b2" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">Institutes</span></a>
+  
+<a style="display: none;" data-lang="en" href="/en/about-izu/history/founding-foundation" menu-bottom-button="c826d51b-4219-43a9-8cec-d401809995cd" class="cta-button cta-light"><span class="cta-icon fa fa-users"></span><span class="cta-title">Founding Foundation</span></a>  
+<a style="display: none;" data-lang="en" href="/en/about-izu/quality-and-strategy/quality-policy-of-the-university" menu-bottom-button="79908d10-2ee2-4a16-8ede-99b065afd6bd" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">Quality Policy</span></a>  
+<a style="display: none;" data-lang="en" href="/en/about-izu/corporate-information/izu-in-numbers" menu-bottom-button="4da8db15-b1f4-40da-be1c-9ac00069e1d0" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">IZU in Numbers</span></a>  
+<a style="display: none;" data-lang="en" href="/en/contact" menu-bottom-button="2f6ce4be-c562-4d12-a5df-ef0914d198ba" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">Contact</span></a>  
+  
+ 
+<a style="display: none;" data-lang="en" href="https://apply.izu.edu.tr/" rel="nofollow" target="_blank" menu-bottom-button="80039d0b-5841-49da-929d-6a982c142c42" class="cta-button cta-light"><span class="cta-icon fa fa-globe"></span><span class="cta-title">Apply Now</span></a>
+<a style="display: none;" data-lang="en" href="/en/institutional/all-programs" menu-bottom-button="a7bdcdec-0d07-420f-9dca-0d803e8b9817" class="cta-button cta-light"><span class="cta-icon fa fa-flag"></span><span class="cta-title">All Programs</span></a>
+<a style="display: none;" data-lang="en" href="/en/international/international-relations" menu-bottom-button="33e605ce-c5f7-4062-89b5-25df9c2c3773" class="cta-button cta-light"><span class="cta-icon fa fa-plane"></span><span class="cta-title">International Relations</span></a>
+<a style="display: none;" data-lang="en" href="/en/international/international-relations/international-campus" menu-bottom-button="58d7d84c-d3f8-4320-92b5-2274659f1ecb" class="cta-button cta-light"><span class="cta-icon fa fa-plane"></span><span class="cta-title">International Campus</span></a>
+
+<a style="display: none;" data-lang="ar" href="/ar/institutional/all-programs" menu-bottom-button="c6f4a31a-57a0-4e75-97fc-849e056ae8c7" class="cta-button cta-light"><span class="cta-icon fa fa-search"></span><span class="cta-title">كل البرامج</span></a>
+<a style="display: none;" data-lang="ar" href="/ar/students-affairs/enrollment-and-admission/academic-calendar" menu-bottom-button="5bac4094-34b6-4cbc-a412-ca23dccc0330" class="cta-button cta-light"><span class="cta-icon fa fa-calendar"></span><span class="cta-title"> التقويم الاكاديمي</span></a>
+<a style="display: none;" data-lang="ar" href="/ar/academics/faculties" menu-bottom-button="f33d75f1-e1a6-44fa-8d19-ddcd365f7791" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">الكليات </span></a>
+<a style="display: none;" data-lang="ar" href="/ar/institutional/graduate" menu-bottom-button="7834a4ff-c577-474e-a2a8-ca0def21d5b2" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">المعاهد </span></a>
+
+<a style="display: none;" data-lang="ar" href="/ar/about-izu/history/founding-foundation" menu-bottom-button="c826d51b-4219-43a9-8cec-d401809995cd" class="cta-button cta-light"><span class="cta-icon fa fa-users"></span><span class="cta-title">الوقف المؤسس</span></a>
+<a style="display: none;" data-lang="ar" href="/ar/about-izu/quality-policy-of-the-university/quality-policy" menu-bottom-button="79908d10-2ee2-4a16-8ede-99b065afd6bd" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">الجودة في الزعيم</span></a>
+<a style="display: none;" data-lang="ar" href="/ar/about-izu/corporate-information/izu-in-numbers" menu-bottom-button="4da8db15-b1f4-40da-be1c-9ac00069e1d0" class="cta-button cta-light"><span class="cta-icon fa fa-info"></span><span class="cta-title">الزعيم بالأرقام </span></a>
+<a style="display: none;" data-lang="ar" href="/ar/contact" menu-bottom-button="2f6ce4be-c562-4d12-a5df-ef0914d198ba" class="cta-button cta-light"><span class="cta-icon fa fa-map-o"></span><span class="cta-title">التواصل </span></a>
+
+
+<a style="display: none;" data-lang="ar" href="https://apply.izu.edu.tr/ar" rel="nofollow" target="_blank" menu-bottom-button="80039d0b-5841-49da-929d-6a982c142c42" class="cta-button cta-light"><span class="cta-icon fa fa-globe"></span><span class="cta-title">قم بالتقديم الآن</span></a>
+<a style="display: none;" data-lang="ar" href="/ar/institutional/all-programs" menu-bottom-button="a7bdcdec-0d07-420f-9dca-0d803e8b9817" class="cta-button cta-light"><span class="cta-icon fa fa-flag"></span><span class="cta-title">كل البرامج</span></a>
+<a style="display: none;" data-lang="ar" href="/ar/international/international-relations" menu-bottom-button="33e605ce-c5f7-4062-89b5-25df9c2c3773" class="cta-button cta-light"><span class="cta-icon fa fa-plane"></span><span class="cta-title">العلاقات الدولية </span></a>
+<a style="display: none;" data-lang="ar" href="/ar/international/international-relations/international-campus" menu-bottom-button="58d7d84c-d3f8-4320-92b5-2274659f1ecb" class="cta-button cta-light"><span class="cta-icon fa fa-plane"></span><span class="cta-title">حرم جامعي دول</span></a>
+  
+  
+  <ul id="nav-list" class="nav-main current">
+    <li class="homepage normal">
+            <div class="menu-level1-expand"> 
+                <a href="/" class="megaMenu-link">Anasayfa</a>
+            </div>
+    </li>
+
+          <li  id='b664ac1c-bcb4-4729-8658-6bd6ad7ea4c4' class="normal">
+            <div class="menu-level1-expand"> 
+                <a href="https://www.izu.edu.tr/akademik/fakulteler" class="megaMenu-link" target="_blank">AKADEMİK</a>
+                <span class="icon fa fa-plus-square"></span>
+            </div>
+            <div class="nav-expanded">
+              <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl00_childNodesContainer">
+                  <li  id='c6f4a31a-57a0-4e75-97fc-849e056ae8c7' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/akademik/fakulteler" class="column-header megaMenu-link">Fakülteler</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl00_ctl01_childNodesContainer">
+                  <li  id='eca8508d-f4e7-4dfb-a09a-d967ff8deaa7' class="normal">
+                    <a href="/akademik/fakulteler/egitim-fakultesi" class="megaMenu-link">Eğitim Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='cef12c04-db59-4d1c-b715-0875192dd562' class="normal">
+                    <a href="/akademik/fakulteler/hukuk-fakultesi" class="megaMenu-link">Hukuk Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='9df980f4-2b19-4740-9094-f3b0bfe2f942' class="normal">
+                    <a href="/akademik/fakulteler/insan-ve-toplum-bilimleri-fakultesi" class="megaMenu-link">İnsan ve Toplum Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='cf663dff-a848-46f6-b162-d7e1f05ec7ae' class="normal">
+                    <a href="/akademik/fakulteler/islami-ilimler-fakultesi" class="megaMenu-link">İslami İlimler Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='a3401a97-569d-466b-8766-cd7b933d127a' class="normal">
+                    <a href="/akademik/fakulteler/isletme-ve-yonetim-bilimleri-fakultesi" class="megaMenu-link">İşletme ve Yönetim Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='607e6733-6dad-46cc-927c-5ed2e9739551' class="normal">
+                    <a href="/akademik/fakulteler/muhendislik-ve-doga-bilimleri-fakultesi" class="megaMenu-link">Mühendislik ve Doğa Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='41405bd0-ca9e-45fb-8664-fdfd1c30e8e1' class="normal">
+                    <a href="/akademik/fakulteler/saglik-bilimleri-fakultesi" class="megaMenu-link">Sağlık Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='b52c787e-5aa1-4d80-8237-e532f8f614c5' class="normal">
+                    <a href="/akademik/fakulteler/sporbilimleri" class="megaMenu-link">Spor Bilimleri Fakültesi</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='5bac4094-34b6-4cbc-a412-ca23dccc0330' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/akademik/enstitu" class="column-header megaMenu-link">Enstitü</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl00_ctl02_childNodesContainer">
+                  <li  id='735cec70-8f7e-44d9-a774-c53ac92647ed' class="normal">
+                    <a href="/akademik/enstitu/lisansustu-egitim-enstitusu" class="megaMenu-link">Lisansüstü Eğitim Enstitüsü</a>
+                  </li>                               	
+            
+                  <li  id='8aee8175-bf0d-4bf2-b509-e7677aac9d36' class="normal">
+                    <a href="https://izu.edu.tr/akademik/enstitu/lisansustu-egitim-enstitusu/lisansustu-egitim-enstitusu-basvuru" class="megaMenu-link">Başvuru</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='f33d75f1-e1a6-44fa-8d19-ddcd365f7791' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/akademik/diller-okulu" class="column-header megaMenu-link">Diller Okulu</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl00_ctl03_childNodesContainer">
+                  <li  id='e16106a6-5afb-4e87-aaca-b9027be5f6bd' class="normal">
+                    <a href="/akademik/diller-okulu/arapca-birimi" class="megaMenu-link">Arapça Hazırlık Birimi </a>
+                  </li>                               	
+            
+                  <li  id='4aa0aa3d-8f33-423d-bb83-d682e644c6ab' class="normal">
+                    <a href="/akademik/diller-okulu/ingilizce-birimi" class="megaMenu-link">İngilizce Hazırlık Birimi </a>
+                  </li>                               	
+            
+                  <li  id='31dfdfd0-b5df-4b97-8f22-db1939c8b280' class="normal">
+                    <a href="/akademik/diller-okulu/turkce-birimi" class="megaMenu-link">Türkçe Hazırlık Birimi</a>
+                  </li>                               	
+            
+                  <li  id='2e3657cc-e143-4512-a765-80177930c85d' class="normal">
+                    <a href="/akademik/diller-okulu/izu-toefl-test-merkezi" class="megaMenu-link">İZÜ TOEFL Test Merkezi </a>
+                  </li>                               	
+            
+                  <li  id='2b373647-8e01-4f6b-b0ab-6da861565069' class="normal">
+                    <a href="/akademik/diller-okulu/diller-koordinatorlugu" class="megaMenu-link">Diller Koordinatörlüğü</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='7834a4ff-c577-474e-a2a8-ca0def21d5b2' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/akademik/eğitim-merkezleri" class="column-header megaMenu-link">Eğitim Merkezleri </a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl00_ctl04_childNodesContainer">
+                  <li  id='9464cb73-5a9a-4f7c-a8e9-b123b81f82df' class="normal">
+                    <a href="/akademik/eğitim-merkezleri/izüsem-sürekli-eğitim-merkezi" class="megaMenu-link">İZÜSEM (Sürekli Eğitim Merkezi)</a>
+                  </li>                               	
+            
+                  <li  id='a6ed571d-b2c2-4b28-aa3e-7c62e606d310' class="normal">
+                    <a href="/akademik/eğitim-merkezleri/izutem" class="megaMenu-link">İZÜ TÖMER (Türkçe Eğitim Merkezi)</a>
+                  </li>                               	
+            
+                  <li  id='d9d41813-c29e-439f-8af6-0d24f1bd5d26' class="normal">
+                    <a href="/akademik/eğitim-merkezleri/izuzem-uzaktan-ogretim-merkezi" class="megaMenu-link">İZÜZEM (Uzaktan Öğretim Merkezi)</a>
+                  </li>                               	
+            
+                  <li  id='dba7cbbb-0597-4dd7-a11a-eb8ff7f4e0c0' class="normal">
+                    <a href="/akademik/eğitim-merkezleri/akademik-takvim" class="megaMenu-link">Akademik Takvim</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='15a1933b-1850-47c7-9c91-913b650beeac' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/akademik/ortak-secmeli-dersler-koordinatorlugu" class="column-header megaMenu-link">Eğitim Planlama ve Ortak Dersler Koordinatörlüğü</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    
+                  </li>                              
+            
+                  <li  id='71611f2c-9dfb-411c-a1f6-a7e4e5700634' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/akademik/kurullar-ve-komisyonlar" class="column-header megaMenu-link">Kurullar ve Komisyonlar</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl00_ctl06_childNodesContainer">
+                  <li  id='dec30614-dfdd-48bc-916f-a9c6b1620363' class="normal">
+                    <a href="/akademik/kurullar-ve-komisyonlar/kurullar" class="megaMenu-link">Kurullar</a>
+                  </li>                               	
+            
+                  <li  id='0affce6d-57e3-4c6e-bedd-c870e7e0ea0a' class="normal">
+                    <a href="/akademik/kurullar-ve-komisyonlar/komisyonlar" class="megaMenu-link">Komisyonlar</a>
+                  </li>                               	
+            
+                  <li  id='4176c00c-0fb8-4fb2-b037-c7f810bf476b' class="normal">
+                    <a href="/akademik/kurullar-ve-komisyonlar/engelli-ogrenci-birimi" class="megaMenu-link">Engelli Öğrenci Birimİ</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            </ul>
+            </div>
+          </li>                            
+       
+          <li  id='725b4a86-4e23-4dc1-9929-0f48d1c38d0e' class="normal">
+            <div class="menu-level1-expand"> 
+                <a href="/arastirma" class="megaMenu-link">ARAŞTIRMA</a>
+                <span class="icon fa fa-plus-square"></span>
+            </div>
+            <div class="nav-expanded">
+              <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl01_childNodesContainer">
+                  <li  id='478e1adb-b435-478c-9ec7-2276b8c790b0' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/arastirma/arastirma-merkezleri" class="column-header megaMenu-link">Araştırma Merkezleri</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl01_ctl01_childNodesContainer">
+                  <li  id='06f73140-5e2b-4b61-a6d7-9839ebca1458' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/gida-ve-tarim-arastirma-ve-uygulama-merkezi" class="megaMenu-link">Gıda ve Tarım UAM</a>
+                  </li>                               	
+            
+                  <li  id='8d8a1ba2-1a2c-4bee-b676-ffc5f4486fa5' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/halil-i-nalcik-tarih-ve-toplum-bilimleri-uam" class="megaMenu-link">Halil İnalcık Tarih ve Toplum Bilimleri UAM</a>
+                  </li>                               	
+            
+                  <li  id='af2b4807-53ee-4ee4-86ad-2bfaa0ff916f' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/i-pekyolu-medeniyetleri-uam" class="megaMenu-link">İpekyolu Medeniyetleri UAM</a>
+                  </li>                               	
+            
+                  <li  id='278e53c5-f0e7-491b-85cb-8bac1737e291' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/i-slam-ve-küresel-i-lişkiler-merkezi-(center-for-islam-and-global-affairs-ciga)" class="megaMenu-link">İslam Dünyası ve Küresel İlişkiler UAM</a>
+                  </li>                               	
+            
+                  <li  id='78603a31-dcda-487f-a609-29f7c9a77fae' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/istanbul-arasiırmalari-arastirma-ve-uygulama-merkezi" class="megaMenu-link">İstanbul Araştırmaları UAM</a>
+                  </li>                               	
+            
+                  <li  id='b3d0c2fc-b3f1-478b-92fb-849fa05aca93' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/mehmet-akif-ersoy-sanat-tarih-edebiyat-ve-medeniyet-arastirma-ve-uygulama-merkezi" class="megaMenu-link">Mehmet Akif Ersoy Sanat, Tarih, Edebiyat ve Medeniyet UAM</a>
+                  </li>                               	
+            
+                  <li  id='d5586dbb-cdb9-4f39-92a0-f304f96c9281' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/nukleer-algilayicilar-ve-robotik-uygulama-ve-arastirma-merkezi" class="megaMenu-link">Nükleer Algılayıcılar ve Robotik UAM</a>
+                  </li>                               	
+            
+                  <li  id='7af9af8e-5230-439d-b558-67aa243c1b38' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/izuogem" class="megaMenu-link">Öğretim ve Öğrenmeyi Geliştirme UAM</a>
+                  </li>                               	
+            
+                  <li  id='280d8842-0d74-4c32-bce6-81511388f491' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/izucem-ozel-yetenekli-cocuklar-egitim-arastirma-ve-uygulama-merkezi" class="megaMenu-link">Özel Yetenekli Çocuklar Eğitim UAM</a>
+                  </li>                               	
+            
+                  <li  id='da1ba7d0-5239-4a5d-8174-c792bf233594' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/izusem" class="megaMenu-link">Sürekli Eğitim UAM</a>
+                  </li>                               	
+            
+                  <li  id='843b2776-566b-4a3e-acac-810576b5e691' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/tasavvuf-araştırmaları-merkezi" class="megaMenu-link">Tasavvuf Araştırmaları UAM</a>
+                  </li>                               	
+            
+                  <li  id='7f863dce-8158-441e-9061-c58a9e075410' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/izutomer" class="megaMenu-link">Türkçe Eğitimi ve Öğretimi UAM</a>
+                  </li>                               	
+            
+                  <li  id='b296a68b-a500-4d65-891d-32eeed8bec5e' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/isefam-uluslararasi-islam-ekonomi-ve-finansi-arastirma-ve-uygulama-merkezi" class="megaMenu-link">Uluslararası İslam Ekonomi ve Finansı UAM</a>
+                  </li>                               	
+            
+                  <li  id='b785f496-779e-4611-bca9-97d243ee0398' class="normal">
+                    <a href="https://www.izu.edu.tr/izuzem/hakkimizda" class="megaMenu-link">Uzaktan Öğretim UAM</a>
+                  </li>                               	
+            
+                  <li  id='0faba902-f965-4a29-8fb7-4e9e29fa269f' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/yerel-ve-bolgesel-politikalar-arastirma-ve-uygulama-merkezi" class="megaMenu-link">Yerel ve Bölgesel Politikalar UAM</a>
+                  </li>                               	
+            
+                  <li  id='c836ca53-b56c-4106-bc22-9743c02c3896' class="normal">
+                    <a href="/arastirma/arastirma-merkezleri/yonetim-girisimcilik-ve-liderlik-arastirma-ve-uygulama-merkezi" class="megaMenu-link">Yönetim, Girişimcilik ve Liderlik AUM</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='98f5afc3-bf76-4e10-9a73-aa83734e6cfb' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/arastirma/projeler-koordinatorlugu" class="column-header megaMenu-link">Projeler Koordinatörlüğü</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl01_ctl02_childNodesContainer">
+                  <li  id='183454d5-a790-4504-beae-9d3b9efcf391' class="normal">
+                    <a href="/arastirma/projeler-koordinatorlugu/arastirma-ile-ilgili-yonerge-ve-formlar" class="megaMenu-link">Araştırma ile ilgili Yönerge ve Formlar</a>
+                  </li>                               	
+            
+                  <li  id='07067a61-e4a7-4555-8050-cf5b0a1d7174' class="normal">
+                    <a href="/arastirma/projeler-koordinatorlugu/arastirmaya-yonelik-tesvikler" class="megaMenu-link">Araştırmaya Yönelik Teşvikler</a>
+                  </li>                               	
+            
+                  <li  id='b96569c5-25ad-4588-9b15-687d938148d4' class="normal">
+                    <a href="/arastirma/projeler-koordinatorlugu/gıda-güvenliği-denetimleri-ve-analizleri" class="megaMenu-link">Gıda Güvenliği Denetimleri ve Analizleri</a>
+                  </li>                               	
+            
+                  <li  id='0eb4bca1-ef1c-4933-a532-48fdfdb5fb37' class="normal">
+                    <a href="/arastirma/projeler-koordinatorlugu/laboratuvarlar" class="megaMenu-link">Laboratuvarlar</a>
+                  </li>                               	
+            
+                  <li  id='2cefac21-c5fc-4363-9956-12a782294e5f' class="normal">
+                    <a href="/arastirma/projeler-koordinatörlüğü/projeler" class="megaMenu-link">Projeler</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='7655b260-a62f-4670-8889-2a2bf6f1cb77' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/arastirma/kütüphane" class="column-header megaMenu-link">Kütüphane</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl01_ctl03_childNodesContainer">
+                  <li  id='cbfec81a-c223-4590-82b3-04d915e2047b' class="normal">
+                    <a href="/arastirma/kutuphane/izu-kutuphane" class="megaMenu-link">İZÜ Kütüphane</a>
+                  </li>                               	
+            
+                  <li  id='1ffbbd8c-035a-44f6-9510-9cf5d8f65d61' class="normal">
+                    <a href="https://kutuphane.izu.edu.tr/yordam/?p=2&dil=0&devam=L3lvcmRhbS8=" class="megaMenu-link" target="_blank">Katalog Tarama</a>
+                  </li>                               	
+            
+                  <li  id='5df6d245-be9f-4698-81ab-25788c4e907d' class="normal">
+                    <a href="/arastirma/kutuphane/veri-tabanlarimiz" class="megaMenu-link">Veritabanlarımız</a>
+                  </li>                               	
+            
+                  <li  id='6621dc1e-93be-4db3-a2c2-5eb155657a0b' class="normal">
+                    <a href="/arastirma/kutuphane/hizmetlerimiz" class="megaMenu-link">Hizmetlerimiz</a>
+                  </li>                               	
+            
+                  <li  id='a17ea4b7-a84a-4c3c-a2d2-f73ca48c3d47' class="normal">
+                    <a href="/arastirma/kütüphane/hakkımızda" class="megaMenu-link">Hakkımızda</a>
+                  </li>                               	
+            
+                  <li  id='e3cc0152-50d2-4a58-8291-73530206a976' class="normal">
+                    <a href="/arastirma/kutuphane/akademik-gorunurluk" class="megaMenu-link">Akademik Görünürlük</a>
+                  </li>                               	
+            
+                  <li  id='63be2bc8-5af8-4f02-ae7f-e2636ef06dff' class="normal">
+                    <a href="http://kutuphane.izu.edu.tr/yordambt/yordam.php?sayfa=sayfaOturumAc" class="megaMenu-link" target="_blank">Kütüphane Hesabım</a>
+                  </li>                               	
+            
+                  <li  id='d0de03ac-1fec-4cd0-983a-57cb5b4e8d79' class="normal">
+                    <a href="https://www.izu.edu.tr/en/research/library/izu-library" class="megaMenu-link">Faydalı Linkler</a>
+                  </li>                               	
+            
+                  <li  id='ae037ee6-1d4a-45ea-9bc3-3b1c6097a511' class="normal">
+                    <a href="/arastirma/kutuphane/duyurular" class="megaMenu-link">Duyurular</a>
+                  </li>                               	
+            
+                  <li  id='87ee56bf-6ff1-44e6-8433-3cb16712a3da' class="normal">
+                    <a href="/arastirma/kutuphane/sikca-sorulan-sorular" class="megaMenu-link">SSS</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='25e6fdaa-c272-435a-8676-80fc2a481d92' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/arastirma/etik-kurulu-basvurusu" class="column-header megaMenu-link">Etik Kurulu Başvurusu</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl01_ctl04_childNodesContainer">
+                  <li  id='999cda70-c26b-4399-b9b2-cb67c0580a85' class="normal">
+                    <a href="/arastirma/etik-kurulu-basvurusu/etik-kurul-izni-ile-ilgili-sikca-sorulan-sorular" class="megaMenu-link">Etik Kurul İzni ile İlgili Sıkça Sorulan Sorular</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='69c2a4b9-2211-469b-b1cf-d8cfe1157d5f' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/arastirma/izu-yayinlari" class="column-header megaMenu-link">İZÜ Yayınları</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl01_ctl05_childNodesContainer">
+                  <li  id='24f22833-0ed8-401a-9d2d-c0805fc84a05' class="normal">
+                    <a href="/arastirma/izu-yayinlari/dergiler" class="megaMenu-link">Dergiler</a>
+                  </li>                               	
+            
+                  <li  id='720d8fd4-0e6a-463d-b3bc-51a024961395' class="normal">
+                    <a href="/arastirma/izu-yayinlari/kitaplar" class="megaMenu-link">Kitaplar</a>
+                  </li>                               	
+            
+                  <li  id='09bfa109-0e03-4917-8b44-adb939ffde13' class="normal">
+                    <a href="/arastirma/izu-yayinlari/tanıtım-materyalleri-" class="megaMenu-link">Tanıtım Materyalleri</a>
+                  </li>                               	
+            
+                  <li  id='e33c7bdd-0f26-47cc-ad80-06a8b22c239e' class="normal">
+                    <a href="https://izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/daire-baskanliklari/kurumsal-iletisim-ve-tanitim-daire-baskanligi/formlar" class="megaMenu-link">Formlar</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            </ul>
+            </div>
+          </li>                            
+       
+          <li  id='a4bc8422-bb81-4775-b6a8-4225debce886' class="normal">
+            <div class="menu-level1-expand"> 
+                <a href="https://www.izu.edu.tr/ogrenci/kayit-kabul/akademik-takvim" class="megaMenu-link">ÖĞRENCİ</a>
+                <span class="icon fa fa-plus-square"></span>
+            </div>
+            <div class="nav-expanded">
+              <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl02_childNodesContainer">
+                  <li  id='4bc031b3-aaac-4b42-9c28-0db81094e95f' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/ogrenci/kayit-kabul" class="column-header megaMenu-link">Kayıt & Kabul</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl02_ctl01_childNodesContainer">
+                  <li  id='6064be00-e449-41ad-92b1-56d90c8f25a2' class="normal">
+                    <a href="/ogrenci/kayit-kabul/akademik-takvim" class="megaMenu-link">Akademik Takvim</a>
+                  </li>                               	
+            
+                  <li  id='c9c68951-942d-4d74-95c8-4e1cf1e29c1c' class="normal">
+                    <a href="/ogrenci/kayit-kabul/yks-yeni-kayit" class="megaMenu-link">YKS - Yeni Kayıt</a>
+                  </li>                               	
+            
+                  <li  id='1a678819-a43a-490f-b648-9f4726ddf68b' class="normal">
+                    <a href="/ogrenci/kayit-kabul/dgs-yeni-kayit" class="megaMenu-link">DGS - Yeni Kayıt</a>
+                  </li>                               	
+            
+                  <li  id='3a93d9ac-2bf8-4bec-a043-4387241b0ac2' class="normal">
+                    <a href="/ogrenci/kayit-kabul/ucretler-odemeler" class="megaMenu-link">Ücretler & Ödemeler</a>
+                  </li>                               	
+            
+                  <li  id='3f59de78-7626-4ef8-acaa-d6d958ead81d' class="normal">
+                    <a href="/ogrenci/kayit-kabul/kayit-yenileme" class="megaMenu-link">Kayıt Yenileme & Ders Kayıt</a>
+                  </li>                               	
+            
+                  <li  id='f30c6abd-7189-4f99-af75-80631fc55546' class="normal">
+                    <a href="/ogrenci/kayit-kabul/yandal-programi" class="megaMenu-link">Yandal Programı</a>
+                  </li>                               	
+            
+                  <li  id='c3bca316-cc02-43cd-bd6e-02f6856b2c10' class="normal">
+                    <a href="/ogrenci/kayit-kabul/cift-anadal-programi" class="megaMenu-link">Çift Anadal Programı</a>
+                  </li>                               	
+            
+                  <li  id='196a9cd9-8256-4138-94bc-c141e210983b' class="normal">
+                    <a href="/ogrenci/kayit-kabul/agno-kurumlararasiyataygecis" class="megaMenu-link">Kurumlar Arası Yatay Geçiş</a>
+                  </li>                               	
+            
+                  <li  id='7b6536f9-8016-430f-a1c9-d6b4c8a6b023' class="normal">
+                    <a href="/ogrenci/kayit-kabul/osys-yataygecis" class="megaMenu-link">Merkezi Puanla Yatay Geçiş</a>
+                  </li>                               	
+            
+                  <li  id='8b4a688f-ad56-4eb0-8a0d-f4b9935cf9a0' class="normal">
+                    <a href="/ogrenci/kayit-kabul/programlararasi-gecis" class="megaMenu-link">Programlar Arası Yatay Geçiş</a>
+                  </li>                               	
+            
+                  <li  id='c8ead2ef-cc2e-4da0-95a9-3bc7bc13cd19' class="normal">
+                    <a href="/ogrenci/kayit-kabul/dilekce-form-ve-belgeler" class="megaMenu-link">Dilekçeler & Formlar</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='3a20c644-5503-4415-b10d-517c7042e633' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/ogrenci/izu-de-yasam" class="column-header megaMenu-link">İZÜ'de Yaşam</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl02_ctl02_childNodesContainer">
+                  <li  id='edc4612a-5128-4182-b409-34baff13393f' class="normal">
+                    <a href="https://www.izu.edu.tr/haberler/-in-category/categories/k%C3%BClt%C3%BCr-ve-sanat" class="megaMenu-link" target="_blank">Etkinlikler</a>
+                  </li>                               	
+            
+                  <li  id='5bbd192e-988d-41d1-9538-f5c925b4edd2' class="normal">
+                    <a href="https://www.izu.edu.tr/zaimspor" class="megaMenu-link">Zaim Spor</a>
+                  </li>                               	
+            
+                  <li  id='b1406c09-6dbb-4960-888f-a1b2d3133428' class="normal">
+                    <a href="/ogrenci/izu-de-yasam/ogrenci-kulupleri" class="megaMenu-link">Öğrenci Kulüpleri</a>
+                  </li>                               	
+            
+                  <li  id='81bf9d09-519e-4bb9-b91a-e39beebe3737' class="normal">
+                    <a href="/ogrenci/izu-de-yasam/psikolojik-danismanlik-ve-rehberlik" class="megaMenu-link">Psikolojik Danışmanlık ve Rehberlik</a>
+                  </li>                               	
+            
+                  <li  id='b400be34-3282-4a33-894d-ef29c42c16fa' class="normal">
+                    <a href="/ogrenci/izu-de-yasam/hizmetler" class="megaMenu-link">Kafeterya, Yemekhane, Kırtasiye</a>
+                  </li>                               	
+            
+                  <li  id='3668e07f-0cab-4877-92fb-38c281986d19' class="normal">
+                    <a href="/ogrenci/izu-de-yasam/engelli-öğrenci-birimii" class="megaMenu-link">Engelli Öğrenci Birimi</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='e9ca4413-2171-4d63-af85-c9d4401bf8f9' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/ogrenci/staj-is-ve-kariyer" class="column-header megaMenu-link">Staj, İş ve Kariyer</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl02_ctl03_childNodesContainer">
+                  <li  id='faf179df-9ecc-4c66-8f28-629df31eaf55' class="normal">
+                    <a href="/ogrenci/staj-is-ve-kariyer/staj-ilanlari" class="megaMenu-link">İş ve Staj</a>
+                  </li>                               	
+            
+                  <li  id='e8fb1232-9d5f-4acf-b2bd-6f0163da5a89' class="normal">
+                    <a href="https://izu.hrpeak.com/" class="megaMenu-link" target="_blank">CV Merkezi</a>
+                  </li>                               	
+            
+                  <li  id='d7560517-8fc9-4abd-a206-f8b80e979e08' class="normal">
+                    <a href="https://www.izu.edu.tr/kariyer-merkezi/kariyer-planlama" class="megaMenu-link">Kariyer Merkezi</a>
+                  </li>                               	
+            
+                  <li  id='e64a8234-8c38-4eea-9dd0-d9e6b992f936' class="normal">
+                    <a href="/ogrenci/staj-is-ve-kariyer/sürekli-eğitim-merkezi" class="megaMenu-link">Sürekli Eğitim Merkezi</a>
+                  </li>                               	
+            
+                  <li  id='4ab8334a-87f4-442c-aa47-09d4796cde9c' class="normal">
+                    <a href="/ogrenci/staj-is-ve-kariyer/kısmi-zamanlı-çalışma" class="megaMenu-link">Kısmi Zamanlı Çalışma İmkanı</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='890b788f-5eec-4863-bbd6-b62e636fdcef' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/ogrenci/ilgili-birimler" class="column-header megaMenu-link">İZÜ Çözüm Noktaları</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl02_ctl04_childNodesContainer">
+                  <li  id='da925c8c-35f0-4ebd-b9e0-45cdd1821663' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/fakülte-sekreterliği" class="megaMenu-link">Fakülte Sekreterliği</a>
+                  </li>                               	
+            
+                  <li  id='d6c8ca5a-d79b-4f75-b3ac-6e0ded9d3533' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/enstitü-sekreterliği" class="megaMenu-link">Enstitü Sekreterliği</a>
+                  </li>                               	
+            
+                  <li  id='c4936071-b598-4955-ab3a-7e591c40aa85' class="normal">
+                    <a href="https://izu.edu.tr/uluslararasi" class="megaMenu-link">Uluslararası Ofis</a>
+                  </li>                               	
+            
+                  <li  id='4b9cc42c-89be-4d55-b030-e74a5ad8931e' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/ogrenci-isleri-daire-baskanligi" class="megaMenu-link">Öğrenci İşleri Daire Başkanlığı</a>
+                  </li>                               	
+            
+                  <li  id='103f2b14-1891-46d5-9e7f-37d8c86c9baf' class="normal">
+                    <a href="https://izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/idari-ve-mali-isler-daire-baskanligi" class="megaMenu-link">Mali İşler Daire Başkanlığı</a>
+                  </li>                               	
+            
+                  <li  id='7b98ae8a-0004-4935-a384-e0b5521868ec' class="normal">
+                    <a href="https://izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/daire-baskanliklari/saglik-kultur-ve-spor-daire-baskanligii/hakkimizda" class="megaMenu-link">Sağlık Kültür ve Spor Daire Başkanlığı</a>
+                  </li>                               	
+            
+                  <li  id='d0c7d955-250b-4a97-bf4d-49d1b7d35ca9' class="normal">
+                    <a href="https://izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/daire-baskanliklari" class="megaMenu-link">Daire Başkanlıkları</a>
+                  </li>                               	
+            
+                  <li  id='d1a864c9-4fbf-46a8-b1f7-7674c80a328d' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/hazirlik-birimleri-koordinatorlugu" class="megaMenu-link">Yabancı Diller Koordinatörlüğü</a>
+                  </li>                               	
+            
+                  <li  id='7d22022c-f06e-4570-833a-4f1664e5a634' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/erasmus-kurum-koordinatörlüğü" class="megaMenu-link">Erasmus Kurum Koordinatörlüğü</a>
+                  </li>                               	
+            
+                  <li  id='cdf23925-d63b-477e-9767-5e433197f3e4' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/ortak-seçmeli-dersler-koordinatörlüğü" class="megaMenu-link">Eğitim Planlama ve Ortak Dersler Koordinatörlüğü</a>
+                  </li>                               	
+            
+                  <li  id='48ecccb1-fd3b-4b25-90d4-d755adeca8dd' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/cozum-merkezi" class="megaMenu-link">İZÜ Çözüm Merkezi</a>
+                  </li>                               	
+            
+                  <li  id='340cae50-f945-4ff5-9455-6a0ced816b0c' class="normal">
+                    <a href="/ogrenci/ilgili-birimler/engelli-öğrenci-birimi" class="megaMenu-link">Engelli Öğrenci Birimi</a>
+                  </li>                               	
+            
+                  <li  id='abd14176-83c2-4b0a-9684-bef38a5ce7f3' class="normal">
+                    <a href="https://www.izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/konukevleri-mudurlugu/misafirhaneler" class="megaMenu-link">İlim Yayma Vakfı Öğrenci Yurtları</a>
+                  </li>                               	
+            
+                  <li  id='dee627a5-35d4-4f4d-9240-d8b3d948477f' class="normal">
+                    <a href="https://www.izu.edu.tr/arastirma/kutuphane/izu-kutuphane" class="megaMenu-link">Kütüphane</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='a1f9ca87-74d0-4120-94cb-7c6f8e777ee8' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/ogrenci/öidb-iletisim" class="column-header megaMenu-link">ÖİDB İletişim</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    
+                  </li>                              
+            
+                  <li  id='1f55c27a-30cf-4377-b3d0-2092ab3e046b' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/ogrenci/yaz-okulu" class="column-header megaMenu-link">Yaz Okulu</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    
+                  </li>                              
+            </ul>
+            </div>
+          </li>                            
+       
+          <li  id='888a2062-bc6d-4544-9df8-0305d49e391e' class="normal">
+            <div class="menu-level1-expand"> 
+                <a href="https://izu.edu.tr/uluslararasi" class="megaMenu-link">ULUSLARARASI</a>
+                <span class="icon fa fa-plus-square"></span>
+            </div>
+            <div class="nav-expanded">
+              <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl03_childNodesContainer">
+                  <li  id='80039d0b-5841-49da-929d-6a982c142c42' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="https://izu.edu.tr/uluslararasi" class="column-header megaMenu-link">Aday Öğrenci</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl03_ctl01_childNodesContainer">
+                  <li  id='0239d9cc-9238-4179-a705-6266e4e4491e' class="normal">
+                    <a href="/uluslararasilisans/adayogrenci/lisans" class="megaMenu-link">Lisans</a>
+                  </li>                               	
+            
+                  <li  id='a7bdcdec-0d07-420f-9dca-0d803e8b9817' class="normal">
+                    <a href="/uluslararasilisans/adayogrenci/lisansustu" class="megaMenu-link">Lisansüstü </a>
+                  </li>                               	
+            
+                  <li  id='45e4106e-225b-42b6-be07-eed00dbdd167' class="normal">
+                    <a href="/uluslararasilisans/adayogrenci/kayit" class="megaMenu-link">Kayıt</a>
+                  </li>                               	
+            
+                  <li  id='41d54bb8-eef0-48eb-9bd1-da420d816e60' class="normal">
+                    <a href="/uluslararasilisans/adayogrenci/ekibimizle-tanisin" class="megaMenu-link">Ekibimizle Tanışın</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='33e605ce-c5f7-4062-89b5-25df9c2c3773' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="https://izu.edu.tr/uluslararasi-ogrenciler" class="column-header megaMenu-link">Uluslararası Öğrenciler</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl03_ctl02_childNodesContainer">
+                  <li  id='27aeaa4b-4c27-44c7-bebe-25ab959d0366' class="normal">
+                    <a href="/uluslararasilisans/uluslararası-ogrenciler/kampusde-yasam" class="megaMenu-link">Kampüste Yaşam</a>
+                  </li>                               	
+            
+                  <li  id='c9bda863-c9c2-4fbe-bb73-f0be9b6bb291' class="normal">
+                    <a href="/uluslararasilisans/uluslararası-ogrenciler/istanbul-da-yasam" class="megaMenu-link">İstanbul’da Yaşam</a>
+                  </li>                               	
+            
+                  <li  id='cdd3beaf-5615-4cb1-968c-25eba511d83b' class="normal">
+                    <a href="/uluslararasilisans/uluslararası-ogrenciler/turkiye-de-egitim" class="megaMenu-link">Türkiye’de Eğitim</a>
+                  </li>                               	
+            
+                  <li  id='7959bef3-8b6d-417e-b753-2c351027c02e' class="normal">
+                    <a href="/uluslararasilisans/uluslararası-ogrenciler/kariyer-merkezi" class="megaMenu-link">Kariyer Merkezi</a>
+                  </li>                               	
+            
+                  <li  id='2c1d98f2-52aa-45a7-9f3b-feea0928f5f0' class="normal">
+                    <a href="https://www.izu.edu.tr/akademik/kurullar-ve-komisyonlar" class="megaMenu-link">Kurullar Komisyonlar</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='814f7046-2285-4c8d-ab36-dcead219d727' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/uluslararasilisans/uluslararasıiliskiler" class="column-header megaMenu-link">Uluslararası İlişkiler</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl03_ctl03_childNodesContainer">
+                  <li  id='1630cac2-ffcb-46c4-a9d7-2daec2317098' class="normal">
+                    <a href="/uluslararasilisans/uluslararasıiliskiler/uluslararasi-isbirlikleri" class="megaMenu-link">İşbirlikleri</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='58d7d84c-d3f8-4320-92b5-2274659f1ecb' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/uluslararasi/erasmus" class="column-header megaMenu-link">Erasmus+</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl03_ctl04_childNodesContainer">
+                  <li  id='4ea226a7-6b4f-43ad-bb08-d4a5b8c7718c' class="normal">
+                    <a href="/uluslararasi/erasmus/takvim" class="megaMenu-link">Takvim</a>
+                  </li>                               	
+            
+                  <li  id='fb47c4b3-8dce-4bd0-a240-92f18d664aef' class="normal">
+                    <a href="/uluslararasi/erasmus/öğrenci-hareketliliği" class="megaMenu-link">Öğrenci Hareketliliği</a>
+                  </li>                               	
+            
+                  <li  id='94cb29ad-64a9-497f-89e8-00751ffbb7d5' class="normal">
+                    <a href="/uluslararasi/erasmus/personel" class="megaMenu-link">Personel Hareketliliği</a>
+                  </li>                               	
+            
+                  <li  id='64b4276a-14ab-4cab-bf13-46ab79d69fe6' class="normal">
+                    <a href="/uluslararasi/erasmus/anlaşmalı-üniversiteler" class="megaMenu-link">Erasmus+ Anlaşmaları</a>
+                  </li>                               	
+            
+                  <li  id='682f132c-e86e-4a13-909f-65fb0189594f' class="normal">
+                    <a href="/uluslararasi/erasmus/erasmus-koordinatorlugu" class="megaMenu-link">Erasmus+ Koordinatörlüğü</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            </ul>
+            </div>
+          </li>                            
+       
+          <li  id='30f4e581-44f7-42d3-97cb-bccd3291a271' class="normal">
+            <div class="menu-level1-expand"> 
+                <a href="https://izu.edu.tr/izu-aday-ogrenci" class="megaMenu-link" target="_blank">ADAY ÖĞRENCİ</a>
+                <span class="icon fa fa-plus-square"></span>
+            </div>
+            <div class="nav-expanded">
+              <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl04_childNodesContainer">
+                  <li  id='005eb952-badc-4318-8f0f-c9f280507aa7' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/aday-ogrenci/bölümler-programlar" class="column-header megaMenu-link">Bölümler & Programlar</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl04_ctl01_childNodesContainer">
+                  <li  id='292cac4c-90d3-4c13-8293-14c6e9f469ec' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/eğitim-fakültesi" class="megaMenu-link">Eğitim Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='a9965e2a-69c9-4a6b-b146-4495c61d9ab8' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/i-slami-i-limler-fakültesi" class="megaMenu-link">İslami İlimler Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='46dedb90-b17f-4f4a-ade8-621756c2b423' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/insan-ve-toplum-bilimleri-fakültesi" class="megaMenu-link">İnsan ve Toplum Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='a167c422-96e9-46f2-9054-9301426c159c' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/mühendislik-ve-doğa-bilimleri-fakültesi" class="megaMenu-link">Mühendislik ve Doğa Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='4db18630-9f55-4193-9dec-98dc7f55f756' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/sağlık-bilimleri-fakültesi" class="megaMenu-link">Sağlık Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='259aa7bd-5298-43d5-aefd-57af20aebe26' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/hukuk-fakültesi" class="megaMenu-link">Hukuk Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='9bb0a8bd-87b6-4375-8619-deb9816fa33d' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/i-şletme-ve-yönetim-bilimleri-fakültesi" class="megaMenu-link">İşletme ve Yönetim Bilimleri Fakültesi</a>
+                  </li>                               	
+            
+                  <li  id='089759bb-9849-4e55-8200-3036c9f5fe70' class="normal">
+                    <a href="/aday-ogrenci/bölümler-programlar/spor-bilimleri-fakultesi" class="megaMenu-link">Spor Bilimleri Fakültesi</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='a2f076fb-7589-439f-8223-66170818f565' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/aday-ogrenci/kontenjan-puanlar" class="column-header megaMenu-link">Kontenjan & Puanlar</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl04_ctl02_childNodesContainer">
+                  <li  id='5a7ff79e-441b-44dd-b7e7-afa6292d7ebd' class="normal">
+                    <a href="/aday-ogrenci/kontenjan-puanlar/2025-yks-kontenjanlari" class="megaMenu-link">2025 YKS Kontenjanları</a>
+                  </li>                               	
+            
+                  <li  id='ea8eff10-2010-40a5-bb4c-cb2c976324ae' class="normal">
+                    <a href="/aday-ogrenci/kontenjan-puanlar/2025-dgs-kontenjanlari" class="megaMenu-link">2025 DGS Kontenjanları</a>
+                  </li>                               	
+            
+                  <li  id='231ef102-a9dc-4df2-835f-2cf015b23527' class="normal">
+                    <a href="/aday-ogrenci/kontenjan-puanlar/yillara-gore-tavan-taban-puanlar" class="megaMenu-link">Yıllara Göre Tavan-Taban Puanlar</a>
+                  </li>                               	
+            
+                  <li  id='3954ebd1-f9e3-41a4-9c88-3ea48fd86000' class="normal">
+                    <a href="/aday-ogrenci/kontenjan-puanlar/son-3-yilin-basari-siralamalari" class="megaMenu-link">Son 3 Yılın Başarı Sıralamaları</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='81904c8d-da24-4ae7-a294-a59e89e6eda8' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="https://izu.edu.tr/aday-ogrenci/burslar-ucretler/ilk-bes-tercih-burslari" class="column-header megaMenu-link">Burslar & Ücretler</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl04_ctl03_childNodesContainer">
+                  <li  id='8519f3f9-d7dd-4db3-9ee8-94b0a95b162a' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/ucretler-odemeler" class="megaMenu-link">Ücretler & Ödemeler</a>
+                  </li>                               	
+            
+                  <li  id='469b4ed2-23ac-4c8c-94cb-5a72a2454ce9' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/osym-burs-ve-indirimleri" class="megaMenu-link">ÖSYM Burs ve İndirimleri</a>
+                  </li>                               	
+            
+                  <li  id='112e4d25-a2de-4fbc-bf10-805244b26a30' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/ilk-bes-tercih-burslari" class="megaMenu-link">Tercih İndirimi</a>
+                  </li>                               	
+            
+                  <li  id='02ae10d9-a696-4b26-b356-51528e104daa' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/yks-siralama-bursu" class="megaMenu-link">YKS Sıralama Bursu</a>
+                  </li>                               	
+            
+                  <li  id='2936745a-8bb2-416e-8f3c-67b7afa91077' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/yks-derece-burslari" class="megaMenu-link">YKS Derece Bursları</a>
+                  </li>                               	
+            
+                  <li  id='bd92d8c0-98f6-4dc7-85a1-9e78c5d4505b' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/akademik-basari-bursu-" class="megaMenu-link">Akademik Başarı Bursu</a>
+                  </li>                               	
+            
+                  <li  id='d5812177-cec9-42e2-9f1a-667395743fb3' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/hafizlik-bursu" class="megaMenu-link">Hafızlık Bursu</a>
+                  </li>                               	
+            
+                  <li  id='1ce13bd2-d824-4218-9a25-7f6395d60de5' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/spor-bursu" class="megaMenu-link">Sporcu Bursu</a>
+                  </li>                               	
+            
+                  <li  id='a670d140-7ed9-4988-9a68-b73641d9d23a' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/sanat-bursu" class="megaMenu-link">Güzel Sanatlar Bursu</a>
+                  </li>                               	
+            
+                  <li  id='6442402a-c9cf-4fdd-b89c-0dca0cbf1cef' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/kardes-ve-es-indirimi" class="megaMenu-link">Kardeş ve Eş İndirimi</a>
+                  </li>                               	
+            
+                  <li  id='fd6da9f3-a3ad-4292-a6bd-31153952f08f' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/sehit-bursu" class="megaMenu-link">Şehit Bursu</a>
+                  </li>                               	
+            
+                  <li  id='d4cc9e0a-ba01-4b0c-a5f5-3d5508dbaff7' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/gazi-indirimi" class="megaMenu-link">Gazi İndirimi</a>
+                  </li>                               	
+            
+                  <li  id='f322ceec-2252-4275-9b64-260ed3420d19' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/personel-ve-personel-yakini-indirimi" class="megaMenu-link">Personel ve Personel Yakını İndirimi</a>
+                  </li>                               	
+            
+                  <li  id='840cdcfa-b01e-4762-9a75-fcf8b345d91b' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/ilim-yayma-vakfi-cemiyeti-bursu" class="megaMenu-link"> İlim Yayma Vakfı / Cemiyeti Bursu</a>
+                  </li>                               	
+            
+                  <li  id='9f8a38e8-0c17-40b0-b8c5-2443126781b0' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/ozel-bagis-bursu" class="megaMenu-link">Özel Bağış Bursu</a>
+                  </li>                               	
+            
+                  <li  id='a53b44c4-47b5-4007-bc62-015d5cf8289a' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/cap-yandal-burslari" class="megaMenu-link">ÇAP ve Yandal Bursları</a>
+                  </li>                               	
+            
+                  <li  id='3896cf9a-1f99-43d2-9094-9f9f8fd50525' class="normal">
+                    <a href="/aday-ogrenci/burslar-ucretler/kontenjan-ve-puanlar" class="megaMenu-link">Kontenjan ve Puanlar </a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='4e0104ac-734e-42e7-a019-782780b2275c' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/aday-ogrenci/neden-izu-aday" class="column-header megaMenu-link">Neden İZÜ</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl04_ctl04_childNodesContainer">
+                  <li  id='ac46d42a-1a78-44ca-a866-2be6ab8601eb' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/izüde-yasam" class="megaMenu-link">İZÜ'de Yaşam</a>
+                  </li>                               	
+            
+                  <li  id='7970698e-be19-49b4-bd28-acbcfb3597a9' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/izu-farki" class="megaMenu-link">İZÜ Farkı</a>
+                  </li>                               	
+            
+                  <li  id='ca324b44-fd23-41f0-a8ce-1ca73a821a14' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/sayılarla-i-zü" class="megaMenu-link">Sayılarla İZÜ</a>
+                  </li>                               	
+            
+                  <li  id='76e8cee4-f0c2-4bf0-96f1-996b3acbf782' class="normal">
+                    <a href="https://izu.edu.tr/izumedya/videolar" class="megaMenu-link">Tanıtım Videoları</a>
+                  </li>                               	
+            
+                  <li  id='a8c7030b-54a6-4145-826d-ebb9f5369e2b' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/izüden-kareler" class="megaMenu-link">İZÜ'den Kareler</a>
+                  </li>                               	
+            
+                  <li  id='680e9b74-a8ba-4595-95ef-5bd302fc4f66' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/sıkça-sorulan-sorular" class="megaMenu-link">Sıkça Sorulan Sorular</a>
+                  </li>                               	
+            
+                  <li  id='a2f3eade-adf6-46cc-b79f-eaed1ad1f834' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/tanıtım-materyalleri" class="megaMenu-link">Tanıtım Materyalleri</a>
+                  </li>                               	
+            
+                  <li  id='9ba0db07-06fa-410f-9d51-ee98744c1a1d' class="normal">
+                    <a href="/aday-ogrenci/neden-izu-aday/iletişim" class="megaMenu-link">Aday İletişim</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            </ul>
+            </div>
+          </li>                            
+       
+          <li  id='1695faa1-eca8-4c01-bc43-156a94ee17bf' class="normal">
+            <div class="menu-level1-expand"> 
+                <a href="/izu-hakkinda" class="megaMenu-link">İZÜ HAKKINDA</a>
+                <span class="icon fa fa-plus-square"></span>
+            </div>
+            <div class="nav-expanded">
+              <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl05_childNodesContainer">
+                  <li  id='c826d51b-4219-43a9-8cec-d401809995cd' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/izu-hakkinda/tarihce" class="column-header megaMenu-link">Tarihçe</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl05_ctl01_childNodesContainer">
+                  <li  id='2f9c840e-d33b-4331-b457-68af5ac5eec8' class="normal">
+                    <a href="/izu-hakkinda/tarihce/universitemiz" class="megaMenu-link">Üniversitemiz</a>
+                  </li>                               	
+            
+                  <li  id='1f9b11ad-4545-4d6b-9707-1a450fc81645' class="normal">
+                    <a href="http://izu.edu.tr/iletisim" class="megaMenu-link" target="_blank">Kampüs</a>
+                  </li>                               	
+            
+                  <li  id='31d6b367-7012-4170-abf6-9b969bea57b9' class="normal">
+                    <a href="/izu-hakkinda/tarihce/halkali-ziraat-ve-baytar-mektebi" class="megaMenu-link">Halkalı Ziraat ve Baytar Mektebi</a>
+                  </li>                               	
+            
+                  <li  id='43c706be-c933-4c7a-84f8-c5812fc1dba6' class="normal">
+                    <a href="/izu-hakkinda/tarihce/mehmet-akif-ersoy" class="megaMenu-link">Mehmet Akif Ersoy</a>
+                  </li>                               	
+            
+                  <li  id='2297308e-edfb-4737-b938-b40f2af81432' class="normal">
+                    <a href="/izu-hakkinda/tarihce/prof-dr-sabahattin-zaim" class="megaMenu-link">Prof. Dr. Sabahattin Zaim</a>
+                  </li>                               	
+            
+                  <li  id='fa84923b-7ec8-4819-9666-53f65062f473' class="normal">
+                    <a href="/izu-hakkinda/tarihce/kurucu-vakif" class="megaMenu-link">Kurucu Vakıf</a>
+                  </li>                               	
+            
+                  <li  id='afe178b1-79c6-470f-b656-5406e04284b3' class="normal">
+                    <a href="/izu-hakkinda/tarihce/organizasyon-semasi" class="megaMenu-link">Organizasyon Şeması</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='79908d10-2ee2-4a16-8ede-99b065afd6bd' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/izu-hakkinda/kurumsal-bilgiler" class="column-header megaMenu-link">Kurumsal Bilgiler</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl05_ctl02_childNodesContainer">
+                  <li  id='6d073faa-9056-487f-89b0-03a9b8da8938' class="normal">
+                    <a href="/izü-hakkinda/kurumsal-bilgiler/baskanin-mesaji" class="megaMenu-link">Başkanın Mesajı</a>
+                  </li>                               	
+            
+                  <li  id='d8e78bcc-372b-40dd-8930-8a5e02beaec2' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-bilgiler/rektorun-mesaji" class="megaMenu-link">Rektörün Mesajı</a>
+                  </li>                               	
+            
+                  <li  id='15eec179-ac92-4e19-996f-e7288d08c662' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-bilgiler/yonetim" class="megaMenu-link">Yönetim</a>
+                  </li>                               	
+            
+                  <li  id='9afcc073-0919-420f-b028-371e5b96ed7e' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-bilgiler/idari-birimler" class="megaMenu-link">İdari Birimler</a>
+                  </li>                               	
+            
+                  <li  id='f30b152c-e998-4e09-b55e-79a5e4ad928b' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-bilgiler/sayilarla-izu" class="megaMenu-link">Sayılarla İZÜ</a>
+                  </li>                               	
+            
+                  <li  id='897f46ba-c015-4212-a759-2082c0e30f57' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-bilgiler/sıralamalarda-i-zü" class="megaMenu-link">Sıralamalarda İZÜ</a>
+                  </li>                               	
+            
+                  <li  id='1c7f7a49-a0d0-4b98-9c40-a38ec4b739e2' class="normal">
+                    <a href="https://www.izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/organizasyon-semasi" class="megaMenu-link">Organizasyon Şeması</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='4da8db15-b1f4-40da-be1c-9ac00069e1d0' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="https://www.izu.edu.tr/izu-hakkinda/strateji-ve-yonetim-sistemleri/izu-yonetim-sistemleri" class="column-header megaMenu-link">Strateji ve Yönetim Sistemleri</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl05_ctl03_childNodesContainer">
+                  <li  id='2fb5ee30-9c80-4908-8d9e-ae8e0454b27a' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/vizyon-misyon-ve-değerlerimiz" class="megaMenu-link">Misyon, Vizyon ve Değerlerimiz</a>
+                  </li>                               	
+            
+                  <li  id='1ccb4d24-deb1-4aad-a9d0-180ee8096308' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/izu-politikalari" class="megaMenu-link">İZÜ Politikaları</a>
+                  </li>                               	
+            
+                  <li  id='1e5494c3-6cbb-4be4-a276-ef1af442b8d3' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/izu-yonetim-sistemleri" class="megaMenu-link">İZÜ Yönetim Sistemleri</a>
+                  </li>                               	
+            
+                  <li  id='18854376-91e0-4474-8d4a-41ba2b7071e5' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/stratejik-plan" class="megaMenu-link">Stratejik Plan</a>
+                  </li>                               	
+            
+                  <li  id='97c478f7-6d04-4126-bf16-9c468b091cdc' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/faaliyet-raporları" class="megaMenu-link">Faaliyet Raporları</a>
+                  </li>                               	
+            
+                  <li  id='610abb9b-cf54-4eac-9e8d-30355f55d068' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/kurumsal-dis-degerlendirme" class="megaMenu-link">Kurumsal Dış Değerlendirme</a>
+                  </li>                               	
+            
+                  <li  id='59aadb15-2c15-4e59-9a7c-af34c5b47f07' class="normal">
+                    <a href="/izü-hakkinda/kalite-ve-strateji/kurumsal-ic-degerlendirme" class="megaMenu-link">Kurumsal İç Değerlendirme</a>
+                  </li>                               	
+            
+                  <li  id='f052e3d2-bdc5-4355-8983-349ce9d83393' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/program-akreditasyonları" class="megaMenu-link">Program Akreditasyonları</a>
+                  </li>                               	
+            
+                  <li  id='fc4becff-2c12-4902-a400-ac53ccdc2083' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/uzaktan-egitim-raporlari" class="megaMenu-link">Uzaktan Eğitim Raporları</a>
+                  </li>                               	
+            
+                  <li  id='2c2f30bc-7f21-4f7b-899f-fd74bb6127d8' class="normal">
+                    <a href="/izu-hakkinda/strateji-ve-yonetim-sistemleri/izu-cinsiyet-esitligi-plani" class="megaMenu-link">İZÜ Cinsiyet Eşitliği Plânı</a>
+                  </li>                               	
+            
+                  <li  id='4676bdcb-30e1-49f0-80fa-9487c4b1a7a3' class="normal">
+                    <a href="https://kys.izu.edu.tr/tr/Talep/BilgiGuvenligi" class="megaMenu-link" target="_blank">Bilgi Güvenliği İhlal Bildirimi</a>
+                  </li>                               	
+            
+                  <li  id='430f25e5-3034-41ec-bf6b-48b819c588ee' class="normal">
+                    <a href="https://kys.izu.edu.tr/" class="megaMenu-link" target="_blank">Öneri, İstek ve Şikayet Bildirimi</a>
+                  </li>                               	
+            
+                  <li  id='69de7a19-f39b-4c1b-b3b6-d1bc339fba17' class="normal">
+                    <a href="https://kalite.izu.edu.tr/" class="megaMenu-link" target="_blank">Kalite</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='de4d6961-9bdc-45d7-ae01-e9f53b6b792e' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="/izu-hakkinda/mevzuat" class="column-header megaMenu-link">Mevzuat</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl05_ctl04_childNodesContainer">
+                  <li  id='baec8b0f-d219-4e73-97b7-456d7dde8fa9' class="normal">
+                    <a href="/izu-hakkinda/mevzuat/yonetmelikler" class="megaMenu-link">Yönetmelikler</a>
+                  </li>                               	
+            
+                  <li  id='228f5f60-f2ad-43b3-82ed-d52965a0a6ea' class="normal">
+                    <a href="https://izu.edu.tr/ogrenci/kayit-kabul/mevzuat/yonergeler/burs-yonergesi" class="megaMenu-link">Yönergeler</a>
+                  </li>                               	
+            
+                  <li  id='bcfad0d2-bd7e-4c0c-8020-69466525ea4a' class="normal">
+                    <a href="/izu-hakkinda/mevzuat/esaslar" class="megaMenu-link">Esaslar</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            
+                  <li  id='2f6ce4be-c562-4d12-a5df-ef0914d198ba' class="normal current" menu-item>
+                    <div class="menu-level2-expand">
+                      <a href="https://izu.edu.tr/iletisim" class="column-header megaMenu-link">İletişim</a>
+                      <span class="icon2 fa fa-plus"></span>
+                    </div>
+                    <ul id="bolumMegaMenu_C019_ctl00_ctl00_ctl00_ctl05_ctl05_childNodesContainer">
+                  <li  id='7471c341-b646-4a9b-bbab-a498a36a08ea' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-iletisim/kurumsal-kimlik-bilgileri" class="megaMenu-link">Kurumsal Kimlik</a>
+                  </li>                               	
+            
+                  <li  id='a6e009a0-a6ab-4b26-991a-489e349d07b8' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-iletisim/zaim-dergi" class="megaMenu-link">Yayınlar</a>
+                  </li>                               	
+            
+                  <li  id='45159a47-3994-42c0-9a3f-c932fa409f25' class="normal">
+                    <a href="https://izu.edu.tr/izu-hakkinda/kurumsal-bilgiler/idari-birimler/daire-baskanliklari/kurumsal-iletisim-ve-tanitim-daire-baskanligi/formlar" class="megaMenu-link">Formlar</a>
+                  </li>                               	
+            
+                  <li  id='6756c53e-7707-44fd-a8c0-924c66b0c6b3' class="normal">
+                    <a href="/izu-hakkinda/kurumsal-iletisim/tanitim-materyalleri" class="megaMenu-link">Tanıtım Materyalleri</a>
+                  </li>                               	
+            
+                  <li  id='05a00671-9e69-4d62-8910-13caa816e91e' class="normal">
+                    <a href="/kampus-haritasi" class="megaMenu-link">Kampüs Haritası</a>
+                  </li>                               	
+            
+                  <li  id='814c92b6-b582-42c2-abc9-d4e99e671af4' class="normal">
+                    <a href="https://izu.edu.tr/icerik/ula%C5%9F%C4%B1m" class="megaMenu-link" target="_blank">Ulaşım</a>
+                  </li>                               	
+            </ul>
+                  </li>                              
+            </ul>
+            </div>
+          </li>                            
+       
+      
+        </ul>  
+    
+<link href="/Common/css/flipbook.style.css" type="text/css" rel="stylesheet" media="all" />              
+<script type="text/javascript" src="/Common/Js/flipbook.min.js"></script>
+<script type="text/javascript">
+    $('#71611f2c-9dfb-411c-a1f6-a7e4e5700634').remove();
+  	
+  $(window).on('load', function() {
+  	$('.mobile-section-nav').unbind().click(function (e) {
+            e.preventDefault();
+            $('.section-nav-header ul').toggleClass('show');
+        });
+  })
+  
+    $(function () {
+        $('#nav-list li[menu-item]', 'body').each(function (index, data) {
+            var id = $(data).attr('id');
+            $buttons = $('[data-lang="' + languageCode + '"][menu-bottom-button="' + id + '"]');
+            $buttons.appendTo('li#' + id, '.nav-expanded');
+            $buttons.show();
+        }); 
+        
+        $('#478e1adb-b435-478c-9ec7-2276b8c790b0', '#nav-list').addClass('menuYeniGenislik');
+      	
+        $('#69c2a4b9-2211-469b-b1cf-d8cfe1157d5f, #4dbdd854-e857-40fa-859c-237218b14d68, #09d5c54d-9a9f-426d-8d11-21e5418d86b6, #7a824b57-ca35-4308-8dc5-bbc82d100486').hide();
+		
+		var maxHeight = 0;
+		var $akademik = $('[menu-item]', '#b664ac1c-bcb4-4729-8658-6bd6ad7ea4c4');
+		$akademik.each(function(index, data){ if($(data).outerHeight() > maxHeight) maxHeight = $(data).outerHeight(); });
+        $akademik.css('min-height', maxHeight);
+		
+		maxHeight = 0;
+		var $arastirma = $('[menu-item]', '#725b4a86-4e23-4dc1-9929-0f48d1c38d0e');
+		$arastirma.each(function(index, data){ if($(data).outerHeight() > maxHeight) maxHeight = $(data).outerHeight(); });
+        $arastirma.css('min-height', maxHeight);
+		
+		maxHeight = 0;
+		var $ogrenci = $('[menu-item]', '#a4bc8422-bb81-4775-b6a8-4225debce886');
+		$ogrenci.each(function(index, data){ if($(data).outerHeight() > maxHeight) maxHeight = $(data).outerHeight(); });
+        $ogrenci.css('min-height', maxHeight);
+		
+		maxHeight = 0;
+		var $uluslararasi = $('[menu-item]', '#888a2062-bc6d-4544-9df8-0305d49e391e');
+		$uluslararasi.each(function(index, data){ if($(data).outerHeight() > maxHeight) maxHeight = $(data).outerHeight(); });
+        $uluslararasi.css('min-height', maxHeight);
+      
+      		maxHeight = 0;
+      		var $aday = $('[menu-item]', '#30f4e581-44f7-42d3-97cb-bccd3291a271');
+      		$aday.each(function(index, data){ if($(data).outerHeight() > maxHeight) maxHeight = $(data).outerHeight(); });
+        $aday.css('min-height', maxHeight);
+		
+		maxHeight = 0;
+		var $hakkinda = $('[menu-item]', '#1695faa1-eca8-4c01-bc43-156a94ee17bf');
+		$hakkinda.each(function(index, data){ if($(data).outerHeight() > maxHeight) maxHeight = $(data).outerHeight(); });
+        $hakkinda.css('min-height', maxHeight);
+        $('#58175f31-288b-4a8b-990e-57bf1d223a13 a, #ccda0d5d-2a1b-4bbb-9404-f2e3fbb0c68f a, #95044a5f-60f0-475d-98d8-fd2b32bd44fe a').css('font-weight','bold');
+      
+        $('#26adf094-c739-4087-9a0b-d53a3f1c8290, #63dcf3c1-0fe5-4f57-a413-81cf6a1b9a04, #5f4182bd-c25a-44f0-a1fe-3535b3c1b68e, #15a1933b-1850-47c7-9c91-913b650beeac', '.nav-main-wrapper').remove();
+          
+      	$("#b6b0f557-0801-4a30-b8bf-0e47cf296a9d").addClass('neden-izu-pdf');
+      	$nedenIzu = $(".neden-izu-pdf .menu-level2-expand > a, a.neden-izu-pdf");  
+        if($nedenIzu.swipeBook === undefined)
+          return;
+      	$nedenIzu.click(function(e){
+          e.preventDefault();
+        });
+        $nedenIzu.swipeBook({
+            pdfUrl: '/docs/default-source/default-document-library/neden-izu-agustos-2020.pdf ',
+            lightBox:true,
+            lightboxBackground:"rgba(200,202,203,.95)",
+            lightBoxFullscreen: true
+        });
+      
+      //$('#18854376-91e0-4474-8d4a-41ba2b7071e5').addClass('stratejik-plan-pdf');
+        $stratejikPlan = $(".stratejik-plan-pdf a, a.stratejik-plan-pdf");
+      	$stratejikPlan.click(function(e){
+          e.preventDefault();
+        });
+        $stratejikPlan.swipeBook({
+              pdfUrl: '/docs/default-source/kalite-politikası-raporları/izü-2017-2021-stratejik-planı-(web).pdf',
+              lightBox:true,
+              lightboxBackground:"rgba(200,202,203,.95)",
+              lightBoxFullscreen: true
+        });
+      
+      	$('.yks-rehberi-pdf').click(function(e){
+          e.preventDefault();
+        });
+      	$('.yks-rehberi-pdf').swipeBook({
+              pdfUrl: '/docs/default-source/tan%C4%B1t%C4%B1m-metaryelleri/yks.pdf',
+              lightBox:true,
+              lightboxBackground:"rgba(200,202,203,.95)",
+              lightBoxFullscreen: true
+        });
+      if(languageCode !== 'tr'){
+      	$('.content-m ul li.homepage a').attr('href', '/'.concat(languageCode));
+      }
+      
+      if(languageCode === 'en'){
+      	$('.content-m ul li.homepage a').html('Homepage');
+      }
+      else if (languageCode === 'ar'){
+       	$('.content-m ul li.homepage a').html('الصفحة الرئيسية'); 
+      }
+      
+    });
+   </script>
+    <style>
+      li#dba7cbbb-0597-4dd7-a11a-eb8ff7f4e0c0 a {
+    font-weight: 700;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+      }
+      
+      .nav-expanded ul ul {
+          width: 100%;
+      }
+      
+      .content-m ul li.homepage {
+          display: none;
+      }
+      
+      @media (max-width: 767px){
+      	.content-m ul li.homepage {
+            display: block;
+        }
+      }
+       .nav-expanded > ul > li {
+          margin-top: 1rem;
+      }
+      
+    </style>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breadcrumbs -->
+            <div class="container">
+                <div class="breadcrumb-wrapper">
+                    
+
+                            
+
+<ul class="breadcrumb">
+	
+					  <li>
+                                            <span class="fa fa-angle-right divider"></span>
+                                            <a href="/">Anasayfa</a>
+					  </li>
+					
+</ul>
+
+                </div>
+            </div>
+
+            <!-- Breadcrumbs -->
+            <div class="container">
+                
+
+            </div>
+
+            <!-- Section Header -->
+            <div class="container">
+                <!-- No section header configured -->
+            </div>
+        </header>
+        <!-- END: header -->
+
+        <!-- Main Content -->
+        <main class="content">
+            <div class="container">
+                <div class="row-content-area">
+
+                    <section class="nav-inside">
+                        <!-- No nav-inside content -->
+                    </section>
+
+                    <section id="content-main">
+                        
+<div class='sfContentBlock'><h1 style="text-align: center;">ARADIĞINIZ&nbsp;SAYFA BULUNAMADI!</h1>
+
+
+</div><div class='sfContentBlock'><p style="text-align: center;"><img src="/images/default-source/i-zü'den-kareler/dji_0199.jpg?sfvrsn=1547c7ef_2&amp;MaxWidth=600&amp;MaxHeight=400&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=CFC627C564BA856266E7B04A040CFC6F4B4D8452" data-displaymode="Custom" alt="DJI_0199" title="DJI_0199" style="vertical-align: middle;" data-method="ResizeFitToAreaArguments" data-customsizemethodproperties="{'MaxWidth':'600','MaxHeight':'400','ScaleUp':false,'Quality':'High'}" /></p>
+
+
+</div>
+<div >
+    <div ><div><div><div class="grid-content grid-3-column"><div class="grid-block"><a class="call-to-action popup-link" href="https://www.izu.edu.tr/"><span class="i8 icons8-university"></span><span class="cta-label">Anasayfa</span>
+ </a>
+ </div><div class="grid-block"><a class="call-to-action" href="/kampus-haritasi"><span class="i8 icons8-map"></span><span class="cta-label">Kamp&uuml;s Haritası</span>
+ </a>
+ </div><div class="grid-block"><a class="call-to-action" href="/icerik/iletisim-formu"><span class="fa fa-wpforms"></span><span class="cta-label">İletişim Formu</span>
+ </a>
+ </div></div></div></div></div>    
+
+</div>
+                    </section>
+
+                    <div class="sidebar empty">
+                        <!-- No sidebar content -->
+                    </div>
+
+
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <div class="global-footer">
+                <div class="container">
+                    <div class="row">
+                        
+
+
+
+		
+
+        
+                              <div class="link-group">
+                              <h2>E-HİZMETLER</h2>
+                                <ul id="izuFooter_T301C77C7002_ctl00_ctl00_ctl00_ctl00_childNodesContainer">
+                            <li>
+                            <a href="https://kampus.izu.edu.tr/" class="footer-link" target="_blank">Kampüs Bilgi Sistemi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://outlook.office.com/" class="footer-link" target="_blank">İZÜ Webmail</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://ebys.izu.edu.tr" class="footer-link" target="_blank">Elektronik Belge Yönetim Sistemi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://cloud.izu.edu.tr" class="footer-link" target="_blank">Belge Paylaşım Sistemi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/e-hizmetler/eduroam" class="footer-link">Eduroam</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://portal.izu.edu.tr/ForgotPassword" class="footer-link" target="_blank">Parolamı Unuttum</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://kampus.izu.edu.tr/odeme" class="footer-link" target="_blank">Ücret Sorgulama ve Ödeme</a>
+                            </li>
+                        </ul> 
+                                </div>
+                        
+                              <div class="link-group">
+                              <h2>KURUMSAL</h2>
+                                <ul id="izuFooter_T301C77C7002_ctl00_ctl00_ctl00_ctl01_childNodesContainer">
+                            <li>
+                            <a href="/footer/kurumsal/tüm-programlar" class="footer-link">Tüm Programlar</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/kurumsal/sayılarla-izu" class="footer-link">Sayılarla İZU</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/kurumsal/tanıtım-materyalleri" class="footer-link">Tanıtım Materyalleri</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://www.izu.edu.tr/arastirma/izu-yayinlari" class="footer-link">İZÜ Yayınları</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/Etkinlikler" class="footer-link">İZÜ Etkinlikler</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://www.izu.edu.tr/ihaleilanlari" class="footer-link">İhale İlanları</a>
+                            </li>
+                        </ul> 
+                                </div>
+                        
+                              <div class="link-group">
+                              <h2>BAĞLANTILAR</h2>
+                                <ul id="izuFooter_T301C77C7002_ctl00_ctl00_ctl00_ctl02_childNodesContainer">
+                            <li>
+                            <a href="/footer/bağlantilar/uluslararası-ofis" class="footer-link">Uluslararası Ofis</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/bağlantilar/teknoloji-transfer-ofisi" class="footer-link">Teknoloji Transfer Ofisi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://izu.edu.tr/arastirma/arastirma-merkezleri/izutem" class="footer-link" target="_blank">İZÜTEM – Türkçe Eğitim Merkezi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/bağlantilar/izüsem-sürekli-eğitim-merkezi" class="footer-link">İZÜSEM Sürekli Eğitim Merkezi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://www.izu.edu.tr/kariyer-merkezi/ana-sayfa" class="footer-link" target="_blank">İZÜ Kariyer Merkezi</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/bağlantilar/hizmetler" class="footer-link">Hizmetler</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/bağlantilar/bagis" class="footer-link">Bağış</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://kalite.izu.edu.tr/" class="footer-link" target="_blank">Kalite</a>
+                            </li>
+                        </ul> 
+                                </div>
+                        
+                              <div class="link-group">
+                              <h2>BİZE ULAŞIN</h2>
+                                <ul id="izuFooter_T301C77C7002_ctl00_ctl00_ctl00_ctl03_childNodesContainer">
+                            <li>
+                            <a href="/footer/iletisim/kampüs-haritası" class="footer-link">Kampüs Haritası</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/iletisim/sosyal-medyada-i-zü" class="footer-link">Sosyal Medyada İZÜ</a>
+                            </li>
+                        
+                            <li>
+                            <a href="http://izu.kampusatlasi.com/" class="footer-link" target="_blank">Sanal Kampüs Turu</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/iletisim/servis-saatleri" class="footer-link">Servis Saatleri</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/iletisim/ulaşım" class="footer-link">Ulaşım</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/iletisim/i-letişim-bilgileri" class="footer-link">İletişim Bilgileri</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/iletisim/iletişim-formu" class="footer-link">İletişim ve Bilgi Edinme Formu</a>
+                            </li>
+                        
+                            <li>
+                            <a href="/footer/iletisim/öneri-i-stek-memnuniyet-veya-şikayet" class="footer-link">Öneri, İstek, Memnuniyet veya Şikayet</a>
+                            </li>
+                        
+                            <li>
+                            <a href="https://kys.izu.edu.tr/tr/Talep/BilgiGuvenligi" class="footer-link" target="_blank">Bilgi Güvenliği İhlal Bildirimi</a>
+                            </li>
+                        </ul> 
+                                </div>
+                        
+
+                    </div>
+                    
+                            <div class="row">
+                                <div class="footer-info">
+
+                                    <p>
+                                        
+                                            <span>2025 &copy;</span>
+                                        
+                                        <span>İstanbul Sabahattin Zaim Üniversitesi</span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <a href="/iletisim">İletişim</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-top-link">
+                                    <a href="#top" title="Back to top"><span class="fa fa-angle-double-up"></span></a>
+                                </div>
+                            </div>
+                        
+
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="/Common/Js/izu-core-2017.min.js"></script>
+        <script type="text/javascript" src="/Common/Js/handlers.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script>
+            $('.carousel-slide').flickity({
+                // options
+                cellAlign: 'left',
+                contain: true,
+                pageDots: false,
+                adaptiveHeight: true,
+                imagesLoaded: true,
+                lazyLoad: true
+            });
+        </script>
+            <script type="text/javascript" async src="//app.theadx.com/px?t=s&z=1218"></script>
+
+    <input data-sf-role='en' type='hidden' value='https://www.izu.edu.tr/en/page-not-found'>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkeVlhNq-XCDE8S2IidcrTNEqMi9uwFrM&sensor=false"></script><script type="text/javascript">function initialize() {
+	var latlng = new google.maps.LatLng(41.031366, 28.933697);
+
+	var locations = [
+		['<img width="200" height="150" src="http://www.izu.edu.tr/images/default-source/i-zü\'den-kareler/dji_0199.tmb-small.jpg?Status=Master&amp;sfvrsn=1547c7ef_1" alt="İstanbul Sabahattın Zaim Üniversitesi Halkalı Kampüsü"><p><strong>İZÜ - Halkalı Merkez Kampüsü</strong><br>Halkalı Cad. No: 2<br>Küçükçekmece / İstanbul</p><a href="https://www.google.com.tr/maps/dir//\'\'/@41.0332128,28.7189148,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14caa438a39f52db:0xa4eb20ddc406fa96!2m2!1d28.7889547!2d41.033234" target="_blank" rel="nofollow"><i class="fa fa-map-marker"></i> Yol Tarifi Al</a>', 41.033147, 28.788433],
+		
+		['<img width="200" height="150" src="http://www.izu.edu.tr/images/default-source/i-zü\'den-kareler/dji_0199.tmb-small.jpg?Status=Master&amp;sfvrsn=1547c7ef_1" alt="İstanbul Sabahattın Zaim Üniversitesi Halkalı Kampüsü"><p><strong>İZÜ - İZÜSEM Altunizade Yerleşkesi<br>(Sürekli Eğitim Merkezi)</strong><br>Altunizade Mah. Kuşbakışı Cad. <br>No: 2/1/1<br>Üsküdar / İstanbul</p><a href="https://www.google.com.tr/maps/dir//\'\'/@41.0228539,28.9763328,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14cac81d5bfcea7d:0x29e4ef7c40556a8!2m2!1d29.0463727!2d41.0228751" target="_blank" rel="nofollow"><i class="fa fa-map-marker"></i> Yol Tarifi Al</a>', 41.023129, 29.046364]
+	];
+	var mapOptions =
+	{
+          styles: [
+    {
+        "featureType": "all",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": "100"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "lightness": "0"
+            },
+            {
+                "color": "#d0ecff"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.locality",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#5594d3"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.locality",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "lightness": 60
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.neighborhood",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#fafafa"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.attraction",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e8e8e8"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.medical",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#d7e6f4"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.place_of_worship",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.school",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.sports_complex",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e5e5e5"
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ebf2fa"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "color": "#6f6f6f"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.station",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#4caed7"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    }
+],
+		zoom: 11,
+		center: latlng,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+
+	var map = new google.maps.Map(document.getElementById("google-map-wrapper"), mapOptions);
+
+	var marker;
+	var	infowindow = null;
+	$.each(locations, function(index, location){
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(location[1], location[2]),
+			map: map,
+                  	icon: 'https://www.izu.edu.tr/images/default-source/default-album/izu-map-marker.png'
+		});
+		
+		marker.setMap(map);
+          
+		google.maps.event.addListener(marker, 'click', (function(marker, index) {
+			return function() {
+							if(infowindow)
+								infowindow.close();
+                          infowindow = new google.maps.InfoWindow({
+                            content: location[0]
+                          });
+			  infowindow.open(map, marker);
+			}
+		})(marker, index));					
+	});
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);</script></form>
+</body>
+</html>
