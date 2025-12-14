@@ -262,7 +262,9 @@ pip install openai
 ### Error: Invalid API key
 
 Check your .env file has the correct key
+
 Make sure .env is in the chunking/ folder
+
 Verify key format: OPENAI_API_KEY=sk-...
 
 ### Error: File not found
@@ -278,6 +280,8 @@ ls  # Should see: chunks.json, faiss_index.bin, embeddings_openai.npy
 cd ~/projects/izu_scraper/chunking
 ls  # Should see: chunks.json, faiss_index.bin, embeddings_openai.npy
 ```
+
+---
 
 ### **Slow responses**
 - Normal first time (loading models)
@@ -317,6 +321,7 @@ Add to `.gitignore`:
 .env
 *.npy
 faiss_index.bin
+```
 
 ---
 
