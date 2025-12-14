@@ -1,0 +1,170 @@
+[
+  {
+    "id": "q001",
+    "question_tr": "Üniversitede kaç fakülte var?",
+    "question_en": "How many faculties are there at the university?",
+    "category": "general_info",
+    "language": "tr",
+    "difficulty": "easy",
+    "expected_topics": [
+      "faculties",
+      "university structure"
+    ],
+    "ground_truth_answer": "İstanbul Sabahattin Zaim Üniversitesinde 7 fakülte bulunmaktadır.",
+    "requires_urls": [
+      "izu.edu.tr/akademik/fakulteler"
+    ]
+  },
+  {
+    "id": "q002",
+    "question_tr": "Yüksek lisans başvurusu için gerekli belgeler nelerdir?",
+    "question_en": "What documents are required for graduate school application?",
+    "category": "admissions",
+    "language": "tr",
+    "difficulty": "medium",
+    "expected_topics": [
+      "graduate",
+      "admission",
+      "documents"
+    ],
+    "ground_truth_answer": "Lisans diploma, transkript, referans mektubu, nüfus cüzdanı fotokopisi gereklidir.",
+    "requires_urls": [
+      "izu.edu.tr/akademik/enstitu/lisansustu"
+    ]
+  },
+  {
+    "id": "q003",
+    "question_tr": "Üniversite ücretleri ne kadar?",
+    "question_en": "What are the tuition fees?",
+    "category": "fees",
+    "language": "tr",
+    "difficulty": "medium",
+    "expected_topics": [
+      "tuition",
+      "fees",
+      "payment"
+    ],
+    "ground_truth_answer": "Ücretler programa göre değişmektedir. Lisans programları için yıllık ücretler 50.000-100.000 TL arasındadır.",
+    "requires_urls": [
+      "izu.edu.tr/ogrenci/kayit-kabul/ucretler"
+    ]
+  },
+  {
+    "id": "q004",
+    "question_tr": "Burs imkanları var mı?",
+    "question_en": "Are there scholarship opportunities?",
+    "category": "financial_aid",
+    "language": "tr",
+    "difficulty": "easy",
+    "expected_topics": [
+      "scholarship",
+      "financial aid"
+    ],
+    "ground_truth_answer": "Evet, başarı bursları, maddi destek bursları ve çeşitli indirim olanakları mevcuttur.",
+    "requires_urls": [
+      "izu.edu.tr/burs"
+    ]
+  },
+  {
+    "id": "q005",
+    "question_tr": "Kampüste yurt var mı?",
+    "question_en": "Are there dormitories on campus?",
+    "category": "student_services",
+    "language": "tr",
+    "difficulty": "easy",
+    "expected_topics": [
+      "dormitory",
+      "accommodation",
+      "campus"
+    ],
+    "ground_truth_answer": "Evet, kampüste hem kız hem erkek öğrenciler için yurt hizmeti verilmektedir.",
+    "requires_urls": [
+      "izu.edu.tr/ogrenci/yurt"
+    ]
+  },
+  {
+    "id": "q006",
+    "question_en": "What are the admission requirements for international students?",
+    "question_tr": "Uluslararası öğrenciler için kabul şartları nelerdir?",
+    "category": "international",
+    "language": "en",
+    "difficulty": "hard",
+    "expected_topics": [
+      "international",
+      "admission",
+      "requirements"
+    ],
+    "ground_truth_answer": "International students need high school diploma, transcript, passport, language proficiency certificate, and student visa.",
+    "requires_urls": [
+      "izu.edu.tr/en/international"
+    ]
+  },
+  {
+    "id": "q007",
+    "question_tr": "Erasmus programı var mı?",
+    "question_en": "Is there an Erasmus program?",
+    "category": "international",
+    "language": "tr",
+    "difficulty": "medium",
+    "expected_topics": [
+      "erasmus",
+      "exchange",
+      "international"
+    ],
+    "ground_truth_answer": "Evet, İZÜ Avrupa üniversiteleri ile Erasmus değişim programları düzenlemektedir.",
+    "requires_urls": [
+      "izu.edu.tr/uluslararasi"
+    ]
+  },
+  {
+    "id": "q008",
+    "question_tr": "Hangi yüksek lisans programları İngilizce verilmektedir?",
+    "question_en": "Which graduate programs are offered in English?",
+    "category": "programs",
+    "language": "tr",
+    "difficulty": "hard",
+    "expected_topics": [
+      "graduate programs",
+      "english",
+      "language"
+    ],
+    "ground_truth_answer": "Bilgisayar Bilimleri ve Mühendisliği, İşletme Yönetimi gibi programlar İngilizce verilmektedir.",
+    "requires_urls": [
+      "izu.edu.tr/akademik/enstitu"
+    ]
+  },
+  {
+    "id": "q009",
+    "question_tr": "Öğrenci kulüpleri var mı?",
+    "question_en": "Are there student clubs?",
+    "category": "campus_life",
+    "language": "tr",
+    "difficulty": "easy",
+    "expected_topics": [
+      "clubs",
+      "student activities",
+      "campus"
+    ],
+    "ground_truth_answer": "Evet, çeşitli sosyal, kültürel ve sportif kulüpler bulunmaktadır.",
+    "requires_urls": [
+      "izu.edu.tr/kampus"
+    ]
+  },
+  {
+    "id": "q010",
+    "question_tr": "Kütüphane hizmetleri nelerdir?",
+    "question_en": "What library services are available?",
+    "category": "academic_services",
+    "language": "tr",
+    "difficulty": "medium",
+    "expected_topics": [
+      "library",
+      "services",
+      "resources"
+    ],
+    "ground_truth_answer": "Kütüphane elektronik kaynaklara erişim, ödünç alma, çalışma alanları ve araştırma desteği sunmaktadır.",
+    "requires_urls": [
+      "izu.edu.tr/kutuphane"
+    ]
+  }
+]
