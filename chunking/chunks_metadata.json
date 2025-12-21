@@ -1,0 +1,22 @@
+{
+  "total_documents": 573,
+  "total_chunks": 1154,
+  "avg_chunks_per_doc": 2.013961605584642,
+  "chunk_size": 800,
+  "chunk_overlap": 150,
+  "avg_tokens_per_chunk": 556.761698440208,
+  "languages": {
+    "tu": 91,
+    "en": 439,
+    "tr": 624
+  },
+  "categories": {
+    "general": 1078,
+    "academic_program": 11,
+    "news": 43,
+    "faculty_member": 7,
+    "research": 2,
+    "event": 11,
+    "student_service": 2
+  }
+}

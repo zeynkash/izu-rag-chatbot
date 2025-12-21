@@ -1,6 +1,6 @@
 {
   "model": "text-embedding-3-small",
   "dimension": 1536,
-  "total_embeddings": 1747,
-  "date_created": "2025-12-13T19:13:28.506730"
+  "total_embeddings": 1154,
+  "date_created": "2025-12-19T19:02:20.071157"
 }

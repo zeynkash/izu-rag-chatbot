@@ -10,26 +10,18 @@ rag-venv/
 env/
 ENV/
 
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints/
-
-# Large data files
-*.npy
-*.bin
-faiss_index.bin
-embeddings*.npy
+venv/
+ENV/
+*.egg-info/
 
 # Scrapy
 .scrapy/
-httpcache/
 
 # Logs
 logs/

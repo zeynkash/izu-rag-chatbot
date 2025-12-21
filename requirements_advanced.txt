@@ -1,0 +1,17 @@
+# Advanced IZU Crawler Requirements
+
+# Core web scraping
+requests-html>=0.10.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+lxml_html_clean>=0.1.0
+
+# Data handling  
+python-dateutil>=2.8.0
+
+# Optional: For better performance
+# pyppeteer>=1.0.2  # JavaScript rendering (installed with requests-html)
+
+# Existing project requirements
+scrapy>=2.11.0
+pandas>=2.1.0
