@@ -1,40 +1,130 @@
 # Project Structure
 ```
 izu-rag-chatbot/
-├── README.md                    # Main documentation
-├── SETUP.md                     # Setup instructions
-├── requirements.txt             # Python dependencies
-├── .gitignore                   # Git ignore rules
+├── 📄 DOCUMENTATION
+│   ├── README.md                     # Main documentation
+│   ├── SETUP.md                      # Setup instructions
+│   ├── PROJECT_STRUCTURE.md          # Project structure description
+│   └── ADVANCED_CRAWLER_README.md    # Crawler documentation
 │
-├── izu_scraper/                 # Scrapy project
-│   ├── settings.py              # Scrapy settings
-│   ├── items.py                 # Data structures
-│   ├── pipelines.py             # Data processing
-│   └── spiders/                 # Web scrapers
-│       ├── izu_spider.py        # Main spider
-│       └── clean_student_spider.py  # Student pages spider
+├── 🤖 CHATBOT
+│   ├── chatbot_api.py                # FastAPI backend
+│   ├── chatbot_ui.html               # Web interface
+│   ├── start_chatbot.sh              # Quick start script
+│   ├── requirements_chatbot.txt      # FastAPI dependencies
+│   └── .env                          # API keys (not in git)
 │
-├── chunking/                    # RAG system
-│   ├── chunking.ipynb           # Data chunking notebook
-│   ├── rag_system.ipynb         # RAG system notebook
-│   ├── chat.py                  # Simple chat script
-│   ├── interactive_chat.py      # Interactive chat
-│   ├── .env.example             # Example environment file
-│   └── rag_config.json          # System configuration
+├── 🕷️ DATA COLLECTION
+│   ├── advanced_izu_crawler.py        # Main crawler
+│   ├── crawler_utils.py               # Text processing utilities
+│   ├── extraction_strategies.py       # Content extractors
+│   ├── izu_data_models.py             # Data structures
+│   ├── example_usage.py               # Usage examples
+│   ├── requirements_advanced.txt      # Crawler dependencies
+│   │
+│   └── izu_scraper/                   # Legacy Scrapy project
+│       ├── settings.py
+│       ├── items.py
+│       ├── pipelines.py
+│       └── spiders/
+│           └── izu_spider.py           # Original spider
 │
-├── output/                      # Scraped data (not in git)
-├── logs/                        # Logs (not in git)
-└── scripts/                     # Utility scripts
-    ├── run_spider.sh            # Run scraper
-    └── test_rag.py              # Test RAG system
+├── 🔧 DATA PROCESSING
+│   ├── merge_crawler_data.py          # Merge old and new data
+│   ├── convert_for_chunking.py        # Format conversion
+│   └── rechunk_with_merged_data.py    # Automated chunking
+│
+├── 📊 EVALUATION & EXPERIMENTS
+│   ├── data_preparation.py            # Prepare experiment data
+│   ├── phase2_experiments.py          # Test configurations
+│   └── izu_rag_results_bge.csv        # Experiment results
+│
+├── 🗂️ RAG SYSTEM & CHUNKING
+│   └── chunking/
+│       ├── chunks.json                # Processed chunks (1,154)
+│       ├── faiss_index.bin             # Vector index
+│       ├── embeddings_openai_izu.npy   # OpenAI embeddings (1536-dim)
+│       ├── test_dataset.json           # 50 evaluation questions
+│       ├── quick_test.py               # 5-question smoke test
+│       ├── evaluation.ipynb            # Full evaluation notebook
+│       ├── generate_evaluation_report.py
+│       ├── chunking.ipynb              # Original chunking notebook
+│       ├── rag_system.ipynb            # RAG system notebook
+│       ├── chat.py                     # Simple chat interface
+│       ├── interactive_chat.py         # Interactive chat
+│       └── rag_config.json             # System configuration
+│
+├── 📦 OUTPUT (not in git)
+│   ├── izu_advanced_data.json          # Advanced crawler output
+│   ├── izu_merged_data.json            # Merged data (573 pages)
+│   └── data_exports/                   # Additional exports
+│
+├── 📝 CONFIGURATION
+│   ├── requirements.txt               # Core dependencies
+│   ├── .gitignore                     # Git ignore rules
+│   ├── .env                           # Environment variables (not in git)
+│   └── scrapy.cfg                     # Scrapy configuration
+│
+└── 🔨 UTILITIES
+    ├── run_spider.sh                  # Run Scrapy spider
+    └── logs/                          # Application logs (not in git)
+
 ```
 
-## Large Files (Not in Git)
+## Large Files (Not in Git - Generated)
 
-These files are generated during setup:
-- `embeddings_openai.npy` (~100-200 MB)
-- `faiss_index.bin` (~100-200 MB)
-- `chunks.json` (~10-50 MB)
-- `output/*.csv` (Scraped data)
+These files are generated during setup and excluded via [.gitignore](cci:7://file:///home/zeynkash/projects/izu_scraper/.gitignore:0:0-0:0):
 
-Download from: [Release Page] or generate them using setup instructions.
+### Generated by Crawler:
+- [output/izu_advanced_data.json](cci:7://file:///home/zeynkash/projects/izu_scraper/output/izu_advanced_data.json:0:0-0:0) (~2-5 MB)
+- [output/izu_merged_data.json](cci:7://file:///home/zeynkash/projects/izu_scraper/output/izu_merged_data.json:0:0-0:0) (~2-5 MB)
+
+### Generated by RAG System:
+- [chunking/chunks.json](cci:7://file:///home/zeynkash/projects/izu_scraper/chunking/chunks.json:0:0-0:0) (~5-10 MB)
+- [chunking/faiss_index.bin](cci:7://file:///home/zeynkash/projects/izu_scraper/chunking/faiss_index.bin:0:0-0:0) (~20-50 MB)
+- [chunking/embeddings_openai_izu.npy](cci:7://file:///home/zeynkash/projects/izu_scraper/chunking/embeddings_openai_izu.npy:0:0-0:0) (~10-20 MB)
+
+### Generated by Experiments:
+- `izu_chunks*.pkl` (~2-4 MB each)
+- `izu_embeddings*.npy` (~4-10 MB each)
+- [izu_rag_results_bge.csv](cci:7://file:///home/zeynkash/projects/izu_scraper/izu_rag_results_bge.csv:0:0-0:0) (~4 KB)
+
+## Key New Features
+
+### 1. FastAPI Chatbot
+- **Backend**: [chatbot_api.py](cci:7://file:///home/zeynkash/projects/izu_scraper/chatbot_api.py:0:0-0:0) - RESTful API
+- **Frontend**: [chatbot_ui.html](cci:7://file:///home/zeynkash/projects/izu_scraper/chatbot_ui.html:0:0-0:0) - Modern web UI
+- **Docs**: http://localhost:8000/docs
+- **Performance**: 2.69s avg response, $0.0005/query
+
+### 2. Advanced Crawler
+- **Intelligent categorization** (10 types)
+- **Structured extraction** (programs, faculty, fees)
+- **Multi-language support** (TR/EN)
+- **Smart deduplication**
+
+### 3. Comprehensive Evaluation
+- **50 test questions** with ground truth
+- **Multiple metrics** (similarity, retrieval, performance)
+- **Quick test** (5 questions, 2 mins)
+- **Full evaluation** (50 questions, 15 mins)
+
+## File Sizes Overview
+
+| Component | Size | Status |
+|-----------|------|--------|
+| Code (Python, HTML, etc.) | ~500 KB | ✅ In Git |
+| Documentation (MD files) | ~200 KB | ✅ In Git |
+| Configuration | ~50 KB | ✅ In Git |
+| Generated Data | ~50-100 MB | ❌ Not in Git |
+| Evaluation Results | ~5-10 MB | ⚠️ Selected in Git |
+
+## Setup Instructions
+
+See [SETUP.md](cci:7://file:///home/zeynkash/projects/izu_scraper/SETUP.md:0:0-0:0) for detailed installation and configuration instructions.
+
+## Repository
+
+**URL**: https://github.com/zeynkash/izu-rag-chatbot
+**Status**: Production Ready ✅
+**Last Updated**: December 2025
