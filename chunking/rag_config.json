@@ -5,7 +5,7 @@
   "total_chunks": 1154,
   "faiss_index_path": "faiss_index.bin",
   "chunks_path": "chunks.json",
-  "embeddings_path": "embeddings_openai_izu.npy",
+  "embeddings_path": "embeddings_openai.npy",
   "default_top_k": 5,
   "temperature": 0.3,
   "max_tokens": 1000

@@ -127,39 +127,193 @@ def retrieve_chunks(query: str, top_k: int = 5) -> List[dict]:
     
     return results
 
-def generate_answer(query: str, retrieved_chunks: List[dict], language: str = "tr") -> str:
-    """Generate answer using GPT-4o-mini"""
+def retrieve_chunks(query: str, top_k: int = 5) -> List[dict]:
+    """Retrieve most relevant chunks using FAISS"""
+    # Get query embedding
+    query_embedding = np.array([get_embedding(query)], dtype='float32')
+    faiss.normalize_L2(query_embedding)
+    
+    # Search
+    scores, indices = faiss_index.search(query_embedding, top_k)
+    
+    # Get chunks
+    results = []
+    for idx, score in zip(indices[0], scores[0]):
+        if idx < len(chunks):
+            results.append({
+                'content': chunks[idx]['content'],
+                'metadata': chunks[idx]['metadata'],
+                'score': float(score)
+            })
+    
+    return results
+
+
+def detect_language(text: str) -> str:
+    """Detect if query is Turkish or English"""
+    # Simple detection based on Turkish-specific characters
+    turkish_chars = set('çğıöşüÇĞİÖŞÜ')
+    turkish_words = {'nedir', 'nasıl', 'ne', 'hangi', 'kaç', 'kim', 'nerede', 
+                     'ücret', 'fakülte', 'bölüm', 'program', 'başvuru'}
+    
+    text_lower = text.lower()
+    
+    # Check for Turkish characters
+    if any(char in text for char in turkish_chars):
+        return "tr"
+    
+    # Check for Turkish words
+    if any(word in text_lower for word in turkish_words):
+        return "tr"
+    
+    # Default to English
+    return "en"
+
+
+def generate_answer(query: str, retrieved_chunks: List[dict]) -> str:
+    """Generate concise answer in user's language without markdown formatting"""
+    
+    # Auto-detect language
+    language = detect_language(query)
     
     # Build context from retrieved chunks
-    context = "\n---\n".join([
-        f"Kaynak: {chunk['metadata']['title']}\n{chunk['content']}"
-        for chunk in retrieved_chunks
-    ])
+    context_parts = []
+    for idx, chunk in enumerate(retrieved_chunks, 1):
+        context_parts.append(
+            f"[Source {idx}] {chunk['metadata']['title']}\n{chunk['content']}"
+        )
+    context = "\n\n---\n\n".join(context_parts)
     
-    # System prompt based on language
+    # System prompts based on detected language
     if language == "tr":
-        system_prompt = """Sen İstanbul Sabahattin Zaim Üniversitesi (İZÜ) için bir yardımcı asistansın. 
-Sadece verilen bilgileri kullanarak soruları cevapla. 
-Eğer bilgi yoksa, "Bu konuda detaylı bilgi bulunamadı" de.
-Cevaplarını net, kısa ve yardımcı tut."""
+        system_prompt = """Sen İstanbul Sabahattin Zaim Üniversitesi (İZÜ) için yardımcı bir asistansın.
+
+ÖNEMLİ KURALLAR:
+1. SADECE verilen kaynaklardaki bilgileri kullan
+2. Sorulan soruyu DOĞRUDAN yanıtla - gereksiz detay ekleme
+3. KISA ve ÖZ cevaplar ver
+4. Bilgi yoksa "Bu konuda bilgi bulunamadı" de
+5. Cevabını Türkçe ver
+6. HİÇBİR ŞEKİLDE markdown formatı kullanma (###, **, -, * gibi)
+7. Düz metin olarak yaz
+8. Madde işareti yerine rakam kullan (1. 2. 3.)"""
+
+        user_prompt = f"""Kaynaklara göre soruyu yanıtla:
+
+{context}
+
+SORU: {query}
+
+ÖNEMLİ: Sadece sorulan şeyi yanıtla. Ekstra bilgi verme. Markdown kullanma. Düz metin kullan."""
+
     else:
         system_prompt = """You are a helpful assistant for Istanbul Sabahattin Zaim University (IZU).
-Answer questions using only the provided information.
-If you don't have information, say "I don't have detailed information about this."
-Keep answers clear, concise, and helpful."""
+
+CRITICAL RULES:
+1. Use ONLY information from provided sources
+2. Answer the EXACT question asked - don't add unnecessary details
+3. Keep answers SHORT and CONCISE
+4. If no information, say "Information not found"
+5. Respond in English
+6. NEVER use markdown formatting (no ###, **, -, * symbols)
+7. Write in plain text only
+8. Use numbers instead of bullets (1. 2. 3.)"""
+
+        user_prompt = f"""Answer based on sources:
+
+{context}
+
+QUESTION: {query}
+
+IMPORTANT: Answer only what is asked. No extra information. No markdown. Plain text only."""
     
     # Generate response
     response = openai.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {query}"}
+            {"role": "user", "content": user_prompt}
         ],
-        temperature=0.3,
-        max_tokens=500
+        temperature=0.1,  # Very low for precise answers
+        max_tokens=300,   # Reduced for concise answers
+        top_p=0.85,
+        frequency_penalty=0.5,  # Higher to avoid repetition
+        presence_penalty=0.2
     )
     
-    return response.choices[0].message.content
+    answer = response.choices[0].message.content
+    
+    # Post-process to remove any remaining markdown
+    answer = clean_markdown(answer)
+    
+    return answer
+
+
+def clean_markdown(text: str) -> str:
+    """Remove markdown formatting from text"""
+    import re
+    
+    # Remove headers (###, ##, #)
+    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
+    
+    # Remove bold (**text** or __text__)
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+    text = re.sub(r'__(.+?)__', r'\1', text)
+    
+    # Remove italic (*text* or _text_)
+    text = re.sub(r'\*(.+?)\*', r'\1', text)
+    text = re.sub(r'_(.+?)_', r'\1', text)
+    
+    # Remove bullet points (-, *, •)
+    text = re.sub(r'^[\-\*•]\s+', '', text, flags=re.MULTILINE)
+    
+    # Remove code blocks (```...```)
+    text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    
+    # Remove inline code (`text`)
+    text = re.sub(r'`(.+?)`', r'\1', text)
+    
+    # Clean up multiple newlines
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    
+    return text.strip()
+
+def preprocess_query(query: str, language: str = "tr") -> str:
+    """Enhance query for better retrieval"""
+    
+    if language == "tr":
+        enhancement_prompt = f"""Aşağıdaki soruyu arama motoru için optimize et:
+        
+Orijinal: {query}
+
+Optimizasyon kuralları:
+- Anahtar kelimeleri belirgin yap
+- Gereksiz kelimeleri çıkar
+- Eşanlamlıları ekle
+- Kısa ve net tut
+
+Optimize edilmiş sorgu:"""
+    else:
+        enhancement_prompt = f"""Optimize this query for search:
+
+Original: {query}
+
+Optimization rules:
+- Make keywords prominent
+- Remove unnecessary words
+- Add synonyms
+- Keep short and clear
+
+Optimized query:"""
+    
+    response = openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": enhancement_prompt}],
+        temperature=0.3,
+        max_tokens=100
+    )
+    
+    return response.choices[0].message.content.strip()
 
 @app.get("/", response_model=dict)
 async def root():
@@ -210,7 +364,7 @@ async def chat(request: ChatRequest):
         logger.info(f"Retrieved {len(retrieved)} chunks")
         
         # Generate answer
-        answer = generate_answer(request.message, retrieved, request.language)
+        answer = generate_answer(request.message, retrieved)
         logger.info(f"Generated answer: {len(answer)} chars")
         
         # Calculate time

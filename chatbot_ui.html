@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +28,7 @@
             height: 90vh;
             background: white;
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             display: flex;
             flex-direction: column;
             overflow: hidden;
@@ -64,8 +65,15 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .message.user {
@@ -89,7 +97,7 @@
             background: white;
             color: #333;
             border-bottom-left-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .message-time {
@@ -183,7 +191,7 @@
             border-radius: 15px;
             border-bottom-left-radius: 5px;
             max-width: 70px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .typing-indicator.active {
@@ -209,8 +217,16 @@
         }
 
         @keyframes typing {
-            0%, 60%, 100% { transform: translateY(0); }
-            30% { transform: translateY(-10px); }
+
+            0%,
+            60%,
+            100% {
+                transform: translateY(0);
+            }
+
+            30% {
+                transform: translateY(-10px);
+            }
         }
 
         .stats {
@@ -226,6 +242,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="chat-container">
         <div class="chat-header">
@@ -249,13 +266,8 @@
 
         <div class="chat-input-container">
             <div class="chat-input-wrapper">
-                <input 
-                    type="text" 
-                    class="chat-input" 
-                    id="messageInput" 
-                    placeholder="Sorunuzu yazın..."
-                    onkeypress="handleKeyPress(event)"
-                />
+                <input type="text" class="chat-input" id="messageInput" placeholder="Sorunuzu yazın..."
+                    onkeypress="handleKeyPress(event)" />
                 <button class="send-button" onclick="sendMessage()" id="sendButton">
                     Gönder
                 </button>
@@ -289,11 +301,11 @@
                 sourcesHTML = `
                     <div class="sources">
                         <div class="sources-title">📚 Kaynaklar:</div>
-                        ${sources.map(s => 
-                            `<a href="${s.url}" target="_blank" class="source-link">
+                        ${sources.map(s =>
+                    `<a href="${s.url}" target="_blank" class="source-link">
                                 ${s.title}
                             </a>`
-                        ).join('')}
+                ).join('')}
                     </div>
                 `;
             }
@@ -340,7 +352,7 @@
 
         async function sendMessage() {
             const message = messageInput.value.trim();
-            
+
             if (!message) return;
 
             // Clear error
@@ -399,4 +411,5 @@
         });
     </script>
 </body>
+
 </html>
